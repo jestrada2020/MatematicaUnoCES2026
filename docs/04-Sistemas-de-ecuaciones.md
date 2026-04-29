@@ -1,0 +1,1681 @@
+# Sistemas de ecuaciones {#Sistemas-de-ecuaciones}
+
+
+## Teorema de los sistema lineales
+
+Todo sistema de ecuaciones lineales sólo tiene una de las siguientes
+afirmaciones:
+
+(a) El sistema sólo tiene única solución
+
+(b) El sistema tiene infinitas soluciones.
+
+(c) El sistema no tiene solución.
+
+## Sistemas $2$ por $2$
+
+
+
+## Gráfica sistemas de ecuaciones
+
+[Link para gráficar el sistema L ó NL](https://johnestradamarzoshiny2020.shinyapps.io/SistemasNoLinealesV3/)
+
+
+Un sistema $2\times 2$ es un conjunto de dos ecuaciones
+con dos variables (ó incógnitas) por conocer en cada una de sus ecuaciones.
+$$
+\left.
+(1) \ \ a_{11}x + a_{12}y  = b_1 \atop
+(2) \ \ a_{21}x + a_{22}y  = b_2 
+\right\} \text{Sistema } 2\times 2 \ \ ordenado
+$$
+
+$$
+\left.
+(1) \ \ a_{11}y + a_{12}x  = b_1 \atop
+(2) \ \ a_{21}y + a_{22}x  = b_2 
+\right\} \text{Sistema } 2\times 2 \ \ ordenado
+$$
+
+### Técnica de sustitución
+
+Como su nombre lo dice se despeja una de las dos variables en la
+primera ecuación y se sustituye en la segunda ecuación. Esto
+reduce el sistema $2$ por $2$ a una ecuación con una incógnita.
+
+También se puede en el sentido contrario, es decir:
+
+Se despeja una de las dos variables en la
+segunda ecuación y se sustituye en la primera. Esto
+reduce el sistema $2$ por $2$ a una ecuación con una incógnita.
+
+#### Ejemplo1 (Sistema $2\times 2$)
+
+Obtener los valores para $x$, y $y$ en el sistema $2\times 2$, y verificar la solución obtenida, si existe.
+
+$$
+\left.
+(1) 2x + y  = 1 \atop
+(2) \ \ x + y = 4 
+\right\}
+$$
+
+
+Proceso de solución
+
+Primero: Se despeja $x$ en la segunda ecuación
+
+\begin{equation} \label{eq50}
+\begin{split}
+(2) x + y & = 4 \\
+(3) \ x & = 4-y \ \ \ \bf{\text{Valor de}}   \  x  \ \bf{\text{a sustituir en la Ec(1)}}
+\end{split}
+\end{equation}
+
+\begin{equation} \label{eq51}
+\begin{split}
+\boxed{(3) \ x = 4-y} 
+\end{split}
+\end{equation}
+
+Segundo: Se realiza la sustitución en la Ec(1)
+
+\begin{equation} \label{eq52}
+\begin{split}
+(1) \ 2x + y  & = 1 \\
+ 2(\bf{4-y}) + y & = 1 \\
+ 8- 2y + y &= 1\\
+ -2y+y & = 1-8 \\
+ -y & = -7 \\
+ y & = 7 \ \ \ \bf{\text{Valor de}}   \  y  \ \bf{\text{obtenido depués de sustituir la Ec(3)}}
+\end{split}
+\end{equation}
+
+
+
+\begin{equation} \label{eq53}
+\begin{split}
+\boxed{(4) \ y = 7} 
+\end{split}
+\end{equation}
+
+
+Tercero: Nuevamente se realiza la sustitución de la Ec(4)
+en la Ec(3) para obtener el valor de la $x$.
+
+
+\begin{equation} \label{eq54}
+\begin{split}
+(3) \ x & = 4 - (7)\\
+(5) \ x & = -3
+\end{split}
+\end{equation}
+
+
+Cuarto: Verificar la respuesta en el sistema.
+
+
+$$
+\left.
+(1) 2(-3) + (7)  = 1 \atop
+(2) \ \ (-3) + (7) = 4 
+\right\} \text{Se observa que ambas ecuaciones cumplen}
+$$
+
+
+
+
+### Técnica de eliminación
+
+
+La técnica de eliminación trata de usar ambas ecuaciones del sistema para eliminar una de las variables seleccionada en el sistema.
+La clave del método esta en el buen uso de los coeficientes en cada ecuación.
+
+NOTA: Si se elige eliminar la $x$, entonces los coeficientes de $x$ en ambas ecuaciones se usaran para eliminar la letra $x$. Así:
+
+El coeficiente $x$ de la primera ecuación multiplicará toda la segunda ecuación, y el coeficiente $x$ de la segunda ecuación multiplicará la primera ecuación.
+
+Si ambas ecuaciones resultan después de ser multiplicadas con coeficientes iguales en signo y número, entonces es necesario
+multiplicar una de ambas por menos uno y sumar posteriormente para obtener la eliminación de la letra $x$.
+
+
+#### Ejemplo2 (Sistema $2\times 2$)
+
+Obtener los valores para $x$, y $y$ en el sistema $2\times 2$.
+
+$$
+\left.
+(1) 2x + y  = 1 \atop
+(2) \ \ x + y = 4 
+\right\}
+$$
+
+
+
+
+
+Proceso de solución
+
+Primero: Se selecciona la variable (ó letra) a eliminar
+para este caso se elige la letra $x$
+
+\begin{equation}
+\begin{array}{llllll}
+(1) \ & 2x & + & y & = & 1 \\
++ \\
+(2) \ -2(& x & + & y & = & 4)\\
+(2) \ & -2x & - & 2y & = & -8\\
+\hline
+& 0 & - & y & = & -7 \\
+&  &  & y & = & 7 
+\end{array}
+\end{equation}
+
+
+Segundo: Se selecciona la variable $y$ (ó letra) a eliminar.
+
+\begin{equation}
+\begin{array}{llllll}
+(1) \ & 2x & + & y & = & 1 \\
++ \\
+(2) \ -1(& x & + & y & = & 4)\\
+(2) \ & -x & - & y & = & -4\\
+\hline
+& x & + & 0 & = & -3 \\
+&  &  & x & = & -3 
+\end{array}
+\end{equation}
+
+
+Tercero: Verificar la respuesta en el sistema.
+
+
+$$
+\left.
+(1) 2(-3) + (7)  = 1 \atop
+(2) \ \ (-3) + (7) = 4 
+\right\} \text{Se observa que ambas ecuaciones cumplen}
+$$
+
+### Herramienta shiny para resolver sistemas 2por2
+
+[Link Operaciones entre filas](https://nuevoucesjohnestradaalvarez.shinyapps.io/Sistema2por2NN/)
+
+
+
+
+
+### Técnica de los determinantes
+
+Para aplicar la regla de los determinantes (ó regla de Cramer) son necesarios los conceptos de matriz y determinante en sistemas $2\times 2$ y sistemas $3\times 3$.
+
+
+
+#### Matriz $2\times 2$
+
+Una matriz $A$ $2\times 2$ es un arreglo de números reales (ó complejos)
+por filas y columnas. Los cuales se encierran entre corchetes o paréntesis. Así:
+
+
+
+\begin{equation}
+
+A_{2\times 2}=\begin{pmatrix}
+2 & 5 \\
+7 & 3 
+\end{pmatrix}  \ ó \
+\
+A_{2\times 2}=\begin{bmatrix}
+2 & 5 \\
+7 & 3 
+
+\end{bmatrix}
+
+\end{equation}
+
+
+
+
+
+
+
+#### Determinantes $2\times 2$
+
+Una determinante $A$ $2\times 2$ es un arreglo de números reales (ó complejos)
+por filas y columnas los cuales se encierran entre barras. El determinante es una función (ó aplicación), la cual asociado a toda matriz $2\times 2$ un número real.
+ Así:
+
+\begin{equation}
+|A_{2\times 2}|=\begin{vmatrix}
+a & b \\
+c & d 
+\end{vmatrix}=(a)(d)-(c)(b)
+\end{equation}
+
+\begin{equation}
+|A_{2\times 2}|=\begin{vmatrix}
+2 & 5 \\
+7 & 3 
+\end{vmatrix}=(2)(3)-(7)(5)=6-35=-29
+\end{equation}
+
+<span style="color:red">**Teorema de Cramer $2\times 2$**</span>
+
+Dado un sistema de ecuaciones lineales $2\times 2$
+
+$$
+\left.
+(1) \ \ a_{11}x + a_{12}y  = b_1 \atop
+(2) \ \ a_{21}x + a_{22}y  = b_2 
+\right\} \text{Sistema } 2\times 2 \ \ ordenado
+$$
+El cual se puede expresar de forma equivalente en términos de matrices como:
+
+$$
+\left.
+\begin{bmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22} 
+\end{bmatrix}
+\begin{bmatrix}
+x  \\
+y  
+\end{bmatrix}=\begin{bmatrix}
+b_1 \\
+b_2  
+\end{bmatrix}
+\right\} \text{Sistema } 2\times 2 \ \ ordenado
+$$
+Si el determinante $2\times 2$ llamado determinante de coeficientes en el sistema,
+
+$$
+\begin{vmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22} 
+\end{vmatrix} \neq 0
+$$
+es diferente de cero, Entonces el sistema $2\times 2$ tiene solución única y esta dada por:
+
+\begin{equation}
+x=\dfrac{\begin{vmatrix}
+b_{1} & a_{12} \\
+b_{2} & a_{22} 
+\end{vmatrix}}{\begin{vmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22} 
+\end{vmatrix}};\ \ \ \ \
+
+y=\dfrac{\begin{vmatrix}
+a_{11} & b_{1} \\
+a_{21} & b_{2} 
+\end{vmatrix}}{\begin{vmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22} 
+\end{vmatrix}}\ \ \ \ \
+\end{equation}
+
+
+
+#### Ejemplo3 (Sistema $2\times 2$)
+
+Obtener los valores para $x$, y $y$ en el sistema $2\times 2$. Usando la regla de los determinantes (ò regla de Cramer)
+
+$$
+\left.
+(1) 2x + y  = 1 \atop
+(2) \ \ x + y = 4 
+\right\}
+$$
+
+Proceso de solución
+
+El sistema se puede expresar de forma equivalente en términos de matrices como:
+
+$$
+\left.
+\begin{bmatrix}
+2 & 1 \\
+1 & 1 
+\end{bmatrix}
+\begin{bmatrix}
+x  \\
+y  
+\end{bmatrix}=\begin{bmatrix}
+1 \\
+4  
+\end{bmatrix}
+\right\}
+$$
+
+
+<span style="color:blue">**Regla de Cramer**</span>
+
+Como
+
+
+$$
+\begin{vmatrix}
+2 & 1 \\
+1 & 1 
+\end{vmatrix}=(2)(1) - (1)(1)=1 \neq 0
+$$
+Entonces Cramer afirma que existe única solución y esta dada por:
+
+\begin{equation}
+x=\dfrac{\begin{vmatrix}
+1 & 1 \\
+4 & 1 
+\end{vmatrix}}{1}=\dfrac{(1)(1)-(4)(1)}{1}=\dfrac{1-4}{1}=\dfrac{-3}{1}=-3;\ \ 
+
+y=\dfrac{\begin{vmatrix}
+2 & 1 \\
+1 & 4 
+\end{vmatrix}}{1}=\dfrac{(2)(4)-(1)(1)}{1}=\dfrac{8-1}{1}=\dfrac{7}{1}=7\ 
+
+\end{equation}
+
+
+
+
+
+<br></br>
+
+
+
+
+### Actividad Geogebra: Resolución gráfica de un sistema lineal
+
+
+Author: José María Arias Cabezas
+
+
+
+<iframe scrolling="no" title="Resolución gráfica de un sistema lineal" src="https://www.geogebra.org/material/iframe/id/wm4KpAQH/width/800/height/567/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="567px" style="border:0px;"> </iframe>
+
+
+
+<br></br>
+
+
+
+
+
+## Sistemas $3$ por $3$
+
+
+Un sistema $3\times 3$ es un conjunto de tres ecuaciones
+con tres variables (ó incógnitas) por conocer en cada una de las ecuaciones del sistema.
+$$
+\left.
+(1) \ \ a_{11}x + a_{12}y  + a_{13}z= b_1 \\
+(2) \ \ a_{21}x + a_{22}y  + a_{23}z= b_2 \\
+(3) \ \ a_{31}x + a_{32}y  + a_{33}z= b_3 \atop
+\right\} \text{Sistema } 3\times 3 \ \ ordenado
+$$
+
+
+
+$$
+\left.
+(1) \ \ a_{11}y + a_{12}x  + a_{13}z= b_1 \\
+(2) \ \ a_{21}y + a_{22}x  + a_{23}z= b_2 \\
+(3) \ \ a_{31}y + a_{32}x  + a_{33}z= b_3 \atop
+\right\} \text{Sistema } 3\times 3 \ \ ordenado
+$$
+
+
+### Técnica de sustitución
+
+#### Ejemplo4 (Sistena $3\times 3$)
+
+Resolver el sistema $3 \times 3$ por sustitución
+
+$$
+\left.
+\begin{array}{rcl}
+(1) \  x + 2y+z & = & 9 \\
+(2) \ \ \  x -y -z & = & -10 \\
+(3) \   2x-y+z & = & 5 
+\end{array}
+\right\}
+$$
+
+Proceso de solución
+
+Primero: Se despeja $x$ en la segunda ecuación, así
+
+
+\begin{equation} \label{eq60}
+\begin{split}
+x -y -z & = & -10 \\
+x & = & y + z -10 \\
+\boxed{(4) \ x = y + z -10 } 
+\end{split}
+\end{equation}
+
+Segundo: Se sustituye $x$ en la primera ecuación y en la tercera ecuación, así
+
+\begin{equation} \label{eq59}
+\begin{split}
+(1) \ \ x + 2y+z & = & 9 \\
+(y + z -10) + 2y+z & = & 9 \\
+(y+2y)+(z+z)& = & 9+10\\
+
+\boxed{(5) \ 3y +2z = 19 } \\
+
+(3) \   2x-y+z & = & 5\\
+2(y + z -10)-y+z & = & 5\\
+2y + 2z -20-y+z & = & 5\\
+(2y -y)+(2z+z) & = & 5+20\\
+
+
+\boxed{(6) \ y + 3z  = 25 } \\
+
+
+\end{split}
+\end{equation}
+
+
+Tercero: Se despeja $y$ en la sexta ecuación, así
+
+
+\begin{equation} \label{eq61}
+\begin{split}
+
+(6) \   y+ 3z & = & 25\\
+y & = & 25-3z\\
+
+\boxed{(7) \ y = 25-3z } \\
+
+
+\end{split}
+\end{equation}
+
+
+
+Cuarto: Se sutituye $y$ en la quinta ecuación, así
+
+
+\begin{equation} \label{eq62}
+\begin{split}
+
+(5) \   3y +2z & = & 19 \\
+3(25-3z)+2z & = & 19\\
+3(25)-3(3z)+2z & = & 19\\
+75+(2z-9z) & = & 19\\
+75-7z & = & 19\\
+75-19 & = & 7z\\
+
+56 & = & 7z\\
+\dfrac{56}{7} & = & z\\
+
+
+\boxed{(8) \ z = 8 } \\
+
+
+\end{split}
+\end{equation}
+
+
+
+
+Quinto: Se sutituye el valor de $z$ en la séptima ecuación, así
+
+
+\begin{equation} \label{eq63}
+\begin{split}
+
+(7) \   y & = & 25-3z \\
+y & = & 25-3(8) \\
+y & = & 25-24 \\
+y & = & 1 \\
+
+
+\boxed{(9) \ y = 1 } \\
+
+
+\end{split}
+\end{equation}
+
+
+
+Sexto: Se sutituye el valor de $y$ y $z$ en la cuarta ecuación, así
+
+
+\begin{equation} \label{eq64}
+\begin{split}
+
+(4) \   x & = & y+z-10 \\
+x & = & 1+8-10 \\
+x & = & 9-10\\
+
+x & = & -1 \\
+
+
+\boxed{(10) \ x = -1 } \\
+
+
+\end{split}
+\end{equation}
+
+
+Séptimo: Se verifica la respuesta $x=-1$, $y=1$, y $z=8$ en el sistema de ecuaciones inicial, así
+
+
+$$
+\left.
+\begin{array}{rcl}
+(1) \  (-1) + 2(1)+(8) & = & 9 \\
+(2) \ \ \  (-1) -(1) -(8) & = & -10 \\
+(3) \   2(-1)-(1)+(8) & = & 5 
+\end{array}
+\right\}
+$$
+
+
+
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-element"></div>
+
+<script>
+       var ggbApp = new GGBApplet({"material_id":"hgdybywb", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true }, true);
+         window.addEventListener("load", function() {
+           ggbApp.inject('ggb-element');
+      });
+</script>
+
+
+
+
+
+
+
+### Técnica de eliminación
+
+
+#### Ejemplo5 (Sistena $3\times 3$)
+
+
+Resolver el sistema $3 \times 3$ por eliminación de variables en el sistema de ecuaciones
+
+
+$$
+\left.
+\begin{array}{rcl}
+(1) \  x + 2y+z & = & 9 \\
+(2) \ \ \  x -y -z & = & -10 \\
+(3) \   2x-y+z & = & 5 
+\end{array}
+\right\}
+$$
+
+
+$$
+\left.
+\begin{array}{rcl}
+(1) \  1x + 2y+z & = & 9 \\
+(2) \ \ \  1x -y -z & = & -10 \\
+(3) \   2x-y+z & = & 5 
+\end{array}
+\right\}
+$$
+
+
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-element"></div>
+
+<script>
+       var ggbApp = new GGBApplet({"material_id":"mc69mecz", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true }, true);
+         window.addEventListener("load", function() {
+           ggbApp.inject('ggb-element');
+      });
+</script>
+
+
+
+
+<!-- ```{r, echo=FALSE} -->
+<!-- library(knitr) -->
+<!-- knitr::include_app("https://www.geogebra.org/classic/mc69mecz",height = "600px") -->
+<!-- ``` -->
+
+
+
+
+
+
+**Proceso de solución**
+
+
+Primero: Se elige la variable a eliminar, en nuestro caso se desea eliminar la variable $x$
+
+Segunto: Se elimina la variable seleccionada usando de manera estratégica las ecuaciones del sistema. Así. A la ecuación (1) se le resta la ecuación (2).
+
+
+\begin{equation}
+\begin{array}{llllll}
+(1) \ \ \  \ \ \ \ 1(x &+& 2y &+& z & = & 9) \\
+
+ 
+(2) \ \ \ -1(x &-& y &-& z  & = & -10) \\
+\hline
+ &  0x &+& 3y &+& 2z & = & 19 \\
+\\
+\ \   && 3y &+& 2z & = & 19 
+\end{array}
+\end{equation}
+
+\begin{equation}
+\boxed{(4)\ \ 3y + 2z  =  19 } \\
+\end{equation}
+
+
+Tercero: Se elimina la variable seleccionada usando de manera estratégica las ecuaciones del sistema. Así. A la ecuación (3) se le resta la ecuación (2).
+
+
+\begin{equation}
+\begin{array}{llllll}
+(3) \ \ \  \ \ \ \ 1(2x &-& y &+& z & = & 5 ) \\
+
+ 
+(2) \ \ \ -2(x &-& y &-& z  & = & -10) \\
+\hline
+ &  0x &+& 1y &+& 3z & = & 25 \\
+\\
+\ \   && y &+& 3z & = & 25 
+\end{array}
+\end{equation}
+
+\begin{equation}
+\boxed{(5)\ \ y + 3z  =  25 } \\
+\end{equation}
+
+
+Cuarto: Se elimina la variable $y$ seleccionada para el sistema $2\times 2$, usando de manera estratégica las ecuaciones del sistema formado por (4) y (5). Así. A la ecuación (4) se le resta la ecuación (5) múltiplicada por $-3$.
+
+
+
+
+\begin{equation}
+\boxed{(4)\ \ 3y + 2z  =  19 } \\
+\boxed{(5)\ \ y + 3z  =  25 } \\
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+
+(4) \ \  \ \ \ \ 1(3y &+& 2z  & = &  19 ) \\
+
+ 
+(5) \ \ \ -3(y &+& 3z &  = &  25) \\
+\hline
+ &  && 0y &-& 7z & = & -56 \\
+\ \    -7z & = & -56 \\
+\ \   z & = & \dfrac{-56}{-7} \\
+\ \    z & = & \dfrac{56}{7} \\
+\ \   z & = & 8 \\
+
+\end{split}
+\end{equation}
+
+
+\begin{equation}
+\boxed{(6)\ \ z = 8} 
+\end{equation}
+
+
+Quinto: Se elimina la variable $z$ seleccionada para el sistema $2\times 2$, usando de manera estratégica las ecuaciones del sistema formado por (4) y (5). Así. A la ecuación le (4) múltiplicamos por $3$, y se le resta la ecuación (5) múltiplicada por $-2$.
+
+
+
+
+\begin{equation}
+\boxed{(4)\ \ 3y + 2z  =  19 } \\
+\boxed{(5)\ \ y + 3z  =  25 } \\
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+
+(4)\ \ \ \ \ \ 3(3y &+& 2z  & = &  19 ) \\
+
+ 
+(5) \ \ \ -2(y &+& 3z &  = &  25) \\
+\hline
+ &  && 7y &+& 0z & = & 7 \\
+\ \    7y & = & 7 \\
+\ \   y & = & \dfrac{7}{7} \\
+\ \    y & = & 1 \\
+\end{split}
+\end{equation}
+
+
+\begin{equation}
+\boxed{(7)\ \ y = 1} 
+\end{equation}
+
+
+Sexto: Por sustitución de las ecuaciones (6) y (7) en la ecuación (2), se puede
+obtener el valor de la variable $x$, así:
+
+
+\begin{equation}
+\begin{split}
+
+(2) \ \ \  x -y -z & = & -10 \\
+\ \ \  x-(8)-(1) & = & -10 \\
+\ \ \  x-9 & = & -10 \\
+\ \ \  x & = & -10+9 \\
+\ \ \  x & = & -1 \\
+\end{split}
+\end{equation}
+
+\begin{equation}
+\boxed{(8)\ \ x = -1} 
+\end{equation}
+
+
+Séptimo: Verificar la respuesta $x=-1,\ y=1, \ z=8$ en el sistema original
+
+
+$$
+\left.
+\begin{array}{rcl}
+(1) \  (-1) + 2(1)+(8) & = & 9 \\
+(2) \ \ \  (-1) -(1) -(8) & = & -10 \\
+(3) \   2(-1)-(1)+(8) & = & 5 
+\end{array}
+\right\}
+$$
+
+
+
+<br></br>
+
+
+### Actividad Geogebra: Resolución gráfica de sistemas de tres ecuaciones con tres incógnitas
+
+Author: Adrián Martín
+
+
+
+
+<iframe scrolling="no" title="Resolución gráfica de sistemas de tres ecuaciones con tres incógnitas" src="https://www.geogebra.org/material/iframe/id/r4d5kydd/width/1085/height/625/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1085px" height="625px" style="border:0px;"> </iframe>
+
+
+
+<br></br>
+
+
+### Herramienta shiny para resolver sistemas 3por3
+
+
+[Link Operaciones entre filas](https://nuevoucesjohnestradaalvarez.shinyapps.io/Sistema3por3NN/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Técnica de los determinantes
+
+#### Matriz $3\times 3$
+
+Una matriz $A$ $3\times 3$ es un arreglo de números reales (ó complejos)
+por filas y columnas, los cuales se encierran entre corchetes o paréntesis. Así:
+
+\begin{equation}
+A_{3\times 3}=\begin{pmatrix}
+2 & 5 & 4\\
+7 & 3 & -1\\
+3 & 2 & 1
+\end{pmatrix}  \ ó \
+\
+A_{3\times 3}=\begin{bmatrix}
+2 & 5 & 4\\
+7 & 3 & -1\\
+3 & 2 & 1
+\end{bmatrix}
+
+\end{equation}
+
+
+
+
+
+#### Determinantes $3\times 3$
+
+
+Una determinante $A$ $3\times 3$ es un arreglo de números reales (ó complejos)
+por filas y columnas los cuales se encierran entre barras. El determinante es una función (ó aplicación), la cual asociado a toda matriz $3\times 3$ un número real. Así:
+
+\begin{equation}
+|A_{3\times 3}|=\begin{vmatrix}
+a & b & c\\
+d & e & f\\
+g & h & i
+\end{vmatrix}=(a)\begin{vmatrix}
+e & f \\
+h & i 
+\end{vmatrix}-
+
+(b)\begin{vmatrix}
+d & f \\
+g & i 
+\end{vmatrix}+
+
+
+(c)\begin{vmatrix}
+d & e \\
+g & h 
+\end{vmatrix}
+
+\end{equation}
+
+\begin{equation} \label{eq55}
+\begin{split}
+|A_{3\times 3}|=\begin{vmatrix}
+2 & 5 & 4\\
+7 & 3 & -1\\
+3 & 2 & 1
+\end{vmatrix} & =(2)\begin{vmatrix}
+3 & -1 \\
+2 & 1 
+\end{vmatrix}-
+
+(5)\begin{vmatrix}
+7 & -1 \\
+3 & 1 
+\end{vmatrix}+
+
+(4)\begin{vmatrix}
+7 & 3 \\
+3 & 2 
+\end{vmatrix}\\
+& =(2)(3+2)-(5)(7+3)+(4)(14-9) \\
+& =10-50+20=-20
+\end{split}
+\end{equation}
+
+
+
+#### Regla de Sarrus para un determinante $3\times 3$
+
+[Link Regla de Sarrus](https://johneaces2020.shinyapps.io/REGLASARRUSV1/)
+
+\begin{equation}
+|A_{3\times 3}|=\begin{vmatrix}
+a & b & c\\
+d & e & f\\
+g & h & i
+\end{vmatrix}=\begin{vmatrix}
+a & b & c\\
+d & e & f\\
+g & h & i\\
+a & b & c\\
+d & e & f
+\end{vmatrix}=aei+dhc+gbf-ceg-fha-ibd
+\end{equation}
+
+
+\begin{equation} \label{eq56}
+\begin{split}
+|A_{3\times 3}|=\begin{vmatrix}
+2 & 5 & 4\\
+7 & 3 & -1\\
+3 & 2 & 1
+\end{vmatrix} & =
+\begin{vmatrix}
+2 & 5 & 4\\
+7 & 3 & -1\\
+3 & 2 & 1\\
+2 & 5 & 4\\
+7 & 3 & -1
+\end{vmatrix}\\
+& = (2)(3)(1)+(7)(2)(4)+(3)(5)(-1)-(4)(3)(3)-(-1)(2)(2)-(1)(5)(7)\\
+& = 6+56-15-36+4-35\\
+& = 6+56+4-15-36-35\\
+& = 66-86\\
+& = -20
+\end{split}
+\end{equation}
+
+
+<span style="color:red">**Teorema de Cramer $3\times 3$**</span>
+
+
+
+
+Dado un sistema de ecuaciones lineales $3\times 3$
+
+
+$$
+\left.
+(1) \ \ a_{11}x + a_{12}y  + a_{13}z= b_1 \\
+(2) \ \ a_{21}x + a_{22}y  + a_{23}z= b_2 \\
+(3) \ \ a_{31}x + a_{32}y  + a_{33}z= b_3 \atop
+\right\} \text{Sistema } 3\times 3 \ \ ordenado
+$$
+
+El cual se puede expresar de forma equivalente en términos de matrices como:
+
+$$
+\left.
+\begin{bmatrix}
+a_{11} &  a_{12}  & a_{13} \\
+a_{21} &  a_{22}  & a_{23}\\
+a_{31} &  a_{32}  & a_{33}
+\end{bmatrix}
+\begin{bmatrix}
+x  \\
+y  \\
+z  \\
+\end{bmatrix}=\begin{bmatrix}
+b_1 \\
+b_2 \\  
+b_3 \\ 
+\end{bmatrix}
+\right\} \text{Sistema } 3\times 3 \ \ ordenado
+$$
+
+Si el determinante $3\times 3$ llamado determinante de coeficientes en el sistema,
+
+$$
+\begin{vmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33}
+\end{vmatrix} \neq 0
+$$
+
+es diferente de cero, Entonces el sistema $3\times 3$ tiene solución única y esta dada por:
+
+\begin{equation}
+x=\dfrac{\begin{vmatrix}
+b_{1} & a_{12} & a_{13}\\
+b_{2} & a_{22} & a_{23}\\
+b_{3} & a_{32} & a_{33}
+\end{vmatrix}}{\begin{vmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33} 
+\end{vmatrix}};\ \ \ \ \
+
+y=\dfrac{\begin{vmatrix}
+a_{11} & b_{1} & a_{13}\\
+a_{21} & b_{2} & a_{23}\\
+a_{31} & b_{3} & a_{33} 
+\end{vmatrix}}{\begin{vmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33} 
+\end{vmatrix}};\ \ \ \ \
+
+z=\dfrac{\begin{vmatrix}
+a_{11} & a_{12} & b_{1}\\
+a_{21} & a_{22} & b_{2}\\
+a_{31} & a_{32} & b_{3} 
+\end{vmatrix}}{\begin{vmatrix}
+a_{11} & a_{12} & a_{13}\\
+a_{21} & a_{22} & a_{23}\\
+a_{31} & a_{32} & a_{33} 
+\end{vmatrix}}
+\end{equation}
+
+
+#### Ejemplo5 (Sistena $3\times 3$)
+
+
+Resolver el sistema $3 \times 3$ usando la regla de Cramer
+
+
+$$
+\left.
+\begin{array}{rcl}
+  x + 2y+z & = & 9 
+  \\ x -y -z & = & -10
+  \\ 2x-y+z & = & 5 
+\end{array}
+\right\}
+$$
+
+El sistema se puede expresar de forma equivalente en términos de matrices como:
+
+$$
+\left.
+\begin{bmatrix}
+1 &  2  & 1 \\
+1 &  -1  & -1\\
+2 &  -1  & 1
+\end{bmatrix}
+\begin{bmatrix}
+x  \\
+y  \\
+z  \\
+\end{bmatrix}=\begin{bmatrix}
+9 \\
+-10 \\  
+5 \\ 
+\end{bmatrix}
+\right\} \text{Sistema } 3\times 3 \ \ ordenado
+$$
+
+El sistema tiene única solución ya que determinante para la matriz de coeficientes en el sistema es diferente de cero.
+
+\begin{equation} \label{eq57}
+\begin{split}
+\begin{vmatrix}
+1 & 2 & 1\\
+1 & -1 & -1\\
+2 & -1 & 1
+\end{vmatrix} & = \begin{vmatrix}
+1 & 2 & 1\\
+1 & -1 & -1\\
+2 & -1 & 1\\
+1 & 2 & 1\\
+1 & -1 & -1
+\end{vmatrix} \\
+& =(1)(-1)(1)+(1)(-1)(1)+(2)(2)(-1)-(1)(-1)(2)-(-1)(-1)(1)-(1)(2)(1)\\
+& = -1-1-4+2-1-2\\
+& = -7 \neq 0
+\end{split}
+\end{equation}
+
+Por lo tanto la solución para $x$, $y$, y $z$ es:
+
+\begin{equation}
+x=\dfrac{\begin{vmatrix}
+9 & 2 & 1\\
+-10 & -1 & -1\\
+5 & -1 & 1
+\end{vmatrix}}{-7};\ \ \ \ \
+
+y=\dfrac{\begin{vmatrix}
+1 & 9 & 1\\
+1 & -10 & -1\\
+2 & 5 & 1 
+\end{vmatrix}}{-7};\ \ \ \ \
+
+z=\dfrac{\begin{vmatrix}
+1 & 2 & 9\\
+1 & -1 & -10\\
+2 & -1 & 5 
+\end{vmatrix}}{-7}
+\end{equation}
+
+
+Por lo tanto la solución del sistema $3\times 3$ es: $(x=-1,y=1,z=8)$
+
+
+
+
+
+
+
+
+
+
+
+## Sistemas NL
+
+Recordemos que una ecuación de la forma $ax+by+c=0$ se dice ecuación lineal con dos variables $x$ y $y$.
+Una ecuación que no tenga esta forma se dice no lineal.
+
+**Definición de Sistema No Lineal**: Es un conjunto (ó sistema) de ecuaciones, el cual se dice no lineal (NL), si por lo menos una de sus ecuaciones es no lineal. 
+
+### Ejemplos de sistemas no lineales
+
+\begin{equation}
+\left\{
+\begin{array}{lcr}
+     x^2-4x & =  y \\
+  -x^2+8  & = y   \\
+\end{array}
+\right.
+
+
+\ \ \ \ ;
+\left\{
+\begin{array}{lcr}
+     xy & =  16 \\
+  20-x^2  & = y   \\
+\end{array}
+\right.
+
+\ \ \ \ ;
+
+\left\{
+\begin{array}{lcr}
+     3x & =  y \\
+  x^2+y^2  & = 4   \\
+\end{array}
+\right.
+
+
+\ \ \ \ ;
+
+\left\{
+\begin{array}{lcr}
+     x & =  5 \\
+  y^2  & = x   \\
+\end{array}
+\right.
+\end{equation}
+
+
+### Técnica de sustitución
+
+**Ejemplo**: Resolver el sistema no lineal usando sustitución.
+
+$$
+\left\{
+\begin{array}{lcr}
+(1) \     x & =  5 \\
+(2) \  y^2  & = x   \\
+\end{array}
+\right.
+$$
+
+
+**Proceso de solución**
+
+Sustituir la ec(1) en la ec(2)
+
+
+\begin{equation}
+\begin{split}
+y^2 & =5\\
+\sqrt{y^2} & =\pm \sqrt{5}\\
+y & = \pm \sqrt{5}
+\end{split}
+\end{equation}
+
+
+Por lo tanto las soluciones son:
+
+$$ (x=5,y= \sqrt{5}), \ \ \ \ (x=5, y=-\sqrt{5}) $$
+
+proceso de verificación
+
+Verificación para $(x=5,y= \sqrt{5})$
+
+\begin{equation}
+(1) \ 5=5\\
+(2) \ (\sqrt{5})^2=5\\
+(2) \ 5=5
+\end{equation}
+
+Verificación para $(x=5,y= -\sqrt{5})$
+
+\begin{equation}
+(1) \ 5=5\\
+(2) \ (-\sqrt{5})^2=5\\
+(2) \ \left((-1)(\sqrt{5})\right)^2=5\\
+(2) \ (-1)^2.(\sqrt{5})^2=5\\
+(2) \ 5=5
+\end{equation}
+
+
+
+### Técnica de eliminación
+
+
+**Ejemplo**: Resolver el sistema no lineal usando eliminación.
+
+$$
+\left\{
+\begin{array}{lcr}
+(1) \     x & =  5 \\
+(2) \   x & = y^2   \\
+\end{array}
+\right.
+$$
+
+
+**Proceso de solución**
+
+Restarle a la ec(2) la ec(1)
+
+
+\begin{equation}
+\begin{array}{llllll}
+(2) & x &&& = & y^2 \\
+- \\
+(1) & x &&& = & 5\\
+\hline
+& 0x &&& = & y^2-5
+\end{array}
+\end{equation}
+
+
+
+
+\begin{equation}
+\begin{split}
+0 & = y^2-5\\
+5 & =y^2\\
+\pm \sqrt{5} & =\sqrt{y^2}\\
+\pm \sqrt{5} & = y 
+\end{split}
+\end{equation}
+
+Por lo tanto las soluciones son:
+
+$$ (5, \sqrt{5}), \ \ \ \ (5, -\sqrt{5}) $$
+
+
+<br></br>
+
+
+## Actividad geogebra: Sistemas de ecuaciones no lineales: Interpretación gráfica
+
+
+
+Author:José María Arias Cabezas
+
+
+
+
+<iframe scrolling="no" title="Sistemas de ecuaciones no lineales: Interpretación gráfica" src="https://www.geogebra.org/material/iframe/id/uz69ezuc/width/800/height/600/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="600px" style="border:0px;"> </iframe>
+
+
+
+
+<br></br>
+
+
+
+
+
+
+
+
+
+## **OBSERVACIONES**
+
+
+### Ejercicio del taller
+
+$$
+\dfrac{1}{y^4.x^2}=y^{-4}x^{-2}
+$$
+
+
+### Ejercicio del taller
+
+
+\begin{equation} \label{eq103}
+\begin{split}
+\left({x+y+1}\right)^2 & = \left({x+(y+1)}\right)^2 \\
+& = x^2+2.x.(y+1)+(y+1)^2 \\
+& = x^2+2xy+2x+y^2+2y+1 \\
+\end{split}
+\end{equation}
+
+
+
+### Ejercicio del taller
+
+
+\begin{equation} \label{eq104}
+\begin{split}
+4x^2+11x-3 & = (-4x+1).(-x-3) \\
+& =(-1).(4x-1).(-1).(x+3) \\
+& =(-1)^2(4x-1).(x+3) \\
+& = (4x-1)(x+3) \\
+\end{split}
+\end{equation}
+
+
+
+### Ejercicio del parcial
+
+$$9a^{2n}-16b^{10m}$$
+
+\begin{equation} \label{eq102}
+\begin{split}
+9a^{2n}-16b^{10m} & = \left(3a^n\right)^2-\left(4b^{5m}\right)^2\\
+&= \left(3a^n-4b^{5m}\right).\left(3a^n+4b^{5m}\right)\ \ \ \bf{\text{Respuesta esperada}}
+\end{split}
+\end{equation}
+
+
+
+### Ejercicio del parcial
+
+$$z^{4}+5z^2+6$$
+
+\begin{equation} \label{eq101}
+\begin{split}
+z^4+5z^2+6 & = \left(z^2+3 \right).\left(z^2+2 \right) \ \ \ \bf{\text{Respuesta esperada}}
+\end{split}
+\end{equation}
+
+
+
+### Ejercicio del parcial
+
+$$3ax+6ay+bx+2by$$
+
+\begin{equation} \label{eq100}
+\begin{split}
+3ax+6ay+bx+2by  & = (3ax+bx)+(6ay+2by) \\
+& = (3.a.x+b.x)+((2).(3).a.y+2.b.y) \\
+& = (3a+b)x+(3a+b).2y \\
+& = \left(3a+b \right).\left(x+2y \right) \ \ \ \bf{\text{Respuesta esperada}}
+\end{split}
+\end{equation}
+
+## Ejemplo1
+simplificación por el número $3$
+
+$$
+3.\dfrac{1}{3}=\dfrac{3}{1}.\dfrac{1}{3}=\dfrac{3.1}{1.3}=\dfrac{3}{3}=1
+$$
+
+
+### Ejemplo2
+
+\begin{equation}
+(1) 2x + y  = 1 \\
+y=1-2x\\
+y=-2x+1\\
+m=-2, b=1\\
+(2) \ \ x + y = 4 \\
+y=4-x\\
+y=-x+4\\
+m=-1, b=4
+\end{equation}
+
+
+### Ejemplo3
+
+\begin{equation}
+(1) x - 4y +1 = 0 \\
+x+1=4y\\
+\dfrac{1}{4}x+\dfrac{1}{4}=y\\
+m=\dfrac{1}{4}, b=\dfrac{1}{4}\\
+
+(2) 3x + 2y-1 = 0 \\
+2y=-3x+1\\
+y=\dfrac{-3}{2}x+\dfrac{1}{2}\\
+m=\dfrac{-3}{2}, b=\dfrac{1}{2}
+\end{equation}
+
+
+### Ejercicio4(Taller)
+
+\begin{equation}
+(1) \ x-y=2\\
+(2) \ x+y=1\\
+
+\text{Despeje de la y en cada ecuación}\\
+(1) \ x=2+y\\
+(1) \ 1x-2=y\\
+m=1; \ b=-2\\
+
+(2) \ x+y=1\\
+(2) \ y=1-x\\
+(2) \ y=-x+1\\
+m=-1; \ b=1\\
+
+\text{Verificar la solución}
+(1)\ \ (\dfrac{3}{2})-(\dfrac{-1}{2})=\dfrac{3}{2}+\dfrac{1}{2}=\dfrac{4}{2}=2\\
+(2)\ \ (\dfrac{3}{2})+(\dfrac{-1}{2})=(\dfrac{3}{2})-(\dfrac{1}{2})=\dfrac{3-1}{2}=\dfrac{2}{2}=1\\
+\end{equation}
+
+
+
+\begin{equation}
+(1) \ \ -x-2y=-4\\
+(2) \ \ 5x+10y=20\\
+
+\text{Despejar en ambas ec la letra y}\\
+
+(1) \ \ -x=-4+2y\\
+(1) \ \ -x+4=2y\\
+(1) \ \ \dfrac{-1}{2}x+\dfrac{4}{2}=y\\
+(1) \ \ \dfrac{-1}{2}x+2=y\\
+m=-0.5; \ b=2\\
+
+(2) \ \ 5x+10y=20\\
+(2) \ \ 10y=20-5x\\
+(2) \ \ y=\dfrac{-5}{10}x+\dfrac{20}{10}\\
+(2) \ \ y=\dfrac{-1}{2}x+\dfrac{2}{1}\\
+(2) \ \ y=\dfrac{-1}{2}x+\dfrac{2}{1}\\
+(2) \ \ y=\dfrac{-1}{2}x+2\\
+m=-0.5; b=2
+\end{equation}
+
+
+### Ejercicio16(Taller)
+
+$$
+r^2=10\\
+r=\pm \sqrt{10}\\
+r=\sqrt{10}\\
+$$
+
+
+\begin{equation}
+(1) \ y=3\\
+
+\end{equation}
+
+
+Por sustitución
+
+$y=3$ en la ec(2)
+
+\begin{equation}
+(2) \ (x+1)^2+(3)^2=10\\
+(2) \ (x+1)^2+9=10\\
+(2) \ (x+1)^2=10-9\\
+(2) \ (x+1)^2=1\\
+(2) \ \sqrt{(x+1)^2}= \pm \sqrt{1}\\
+(2) \ (x+1)=\pm 1\\
+(2) \ x=\pm1-1\\
+
+x=1-1=0\\
+x=0\\
+
+x=-1-1=-2\\
+x=-2
+\end{equation}
+
+Se concluye que el sistema posee dos respuestas
+
+$(x=0,y=3)$ \ y  \ $(x=-2,y=3)$
+
+
+### Ejercicio14(Taller)
+
+\begin{equation}
+(1) \ x+y+z=4\\
+(2) \ 2x-y+2z=11\\
+(3) \ 4x+3y-6z=-18\\
+\end{equation}
+
+$$
+\begin{bmatrix}
+1 & 1 & 1\\
+2 & -1 & 2 \\
+4 & 3 & -6
+\end{bmatrix}
+$$
+
+
+$$
+\begin{vmatrix}
+1 & 1 & 1\\
+2 & -1 & 2 \\
+4 & 3 & -6
+\end{vmatrix}=30, \ \text{es diferente de cero}
+$$
+
+$$
+x=\dfrac{\begin{vmatrix}
+4 & 1 & 1\\
+11 & -1 & 2 \\
+-18 & 3 & -6
+\end{vmatrix}}{30}=\dfrac{45}{30}=\dfrac{9}{6}=\dfrac{3}{2}
+$$
+
+$$
+y=\dfrac{\begin{vmatrix}
+1 & 4 & 1\\
+2 & 11 & 2 \\
+4 & -18 & -6
+\end{vmatrix}}{30}=\dfrac{-30}{30}=-1
+$$
+
+$$
+z=\dfrac{\begin{vmatrix}
+1 & 1 & 4\\
+2 & -1 & 11 \\
+4 & 3 & -18
+\end{vmatrix}}{30}=\dfrac{105}{30}=\dfrac{21}{6}=\dfrac{7}{2}
+$$
+
+
+### Ejercicio20(Taller)
+
+
+[Link para gráficar una parábola](https://procesouces2020.shinyapps.io/ParabolaV2/)
+
+
+\begin{equation}
+(1) \ x+y=5\\
+(2) \ x^2+y^2=1\\
+\end{equation}
+
+
+\begin{equation}
+(1) \ x+y=5\\
+(1) \ y=-x+5\\
+m=-1\\
+b=5\\
+
+
+(2) \ x^2+y^2=1\\
+\end{equation}
+
+**Técnica de sustitución**
+
+Despejar $y$ en la ecuación (1) y sustituir (2)
+
+\begin{equation}
+(1) \ x+y=5\\
+(1) \ y=-x+5\\
+
+\text{sustituir en la Ec(2)}\\
+(2) \ x^2+y^2=1\\
+(2) \ x^2+(-x+5)^2=1\\
+(2) \ x^2+(-x)^2+2(-x)(5)+(5)^2=1\\
+(2) \ x^2+x^2-10x+25=1\\
+(2) \ x^2+x^2-10x+25-1=0\\
+(2) \ 2x^2-10x+24=0\\
+A=2\\
+B=-10\\
+C=24\\
+D=B^2-4AC\\
+D=(-10)^2-4(2)(24)\\
+D=-92\\
+\end{equation}
+
+
+Se concluye que el sistema no tiene solución.
+
+Ya que la ec $2x^2-10x+24=0$ no tiene solución real.(**PORQUE EL DISCRIMINANTE ES NEGATIVO**)
+
+
+
+### Ejercicio9(Taller)
+
+\begin{equation}
+(1) \ x+7y-4z=1\\
+(2) \ 2x+3y+z=-3\\
+(3) \ -x+18y+13z=2\\
+\end{equation}
+
+
+$$
+\begin{bmatrix}
+x & y & z\\
+1 & 7 & -4\\
+2 & 3 & 1 \\
+-1 & 18 & 13
+\end{bmatrix}
+$$
+
+
+$$
+\begin{vmatrix}
+1 & 7 & -4\\
+2 & 3 & 1 \\
+-1 & 18 & 13
+\end{vmatrix}=-324
+$$
+
+
+Solución por regla de Cramer (Ya que el determinante de la matriz con coeficientes del sistema es diferente de cero $\text{Matriz de Coefiencientes del sistema}=-324$)
+
+
+Respuesta para la variable $x$
+
+$$
+x=\dfrac{\begin{vmatrix}
+1 & 7 & -4\\
+-3 & 3 & 1 \\
+2 & 18 & 13
+\end{vmatrix}}{-324}=\dfrac{548}{-324}=-1.69
+$$
+
+
+Respuesta para la variable $y$
+
+
+$$
+y=\dfrac{\begin{vmatrix}
+1 & 1 & -4\\
+2 & -3 & 1 \\
+-1 & 2 & 13
+\end{vmatrix}}{-324}=\dfrac{-72}{-324}=0.22
+$$
+
+Respuesta para la variable $z$
+
+
+$$
+z=\dfrac{\begin{vmatrix}
+1 & 7 & 1\\
+2 & 3 & -3 \\
+-1 & 18 & 2
+\end{vmatrix}}{-324}=\dfrac{92}{-324}=-0.28
+$$
+
+
+
+
+

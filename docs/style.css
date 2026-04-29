@@ -1,0 +1,330 @@
+/* ============================================================
+   Estilos personalizados - Curso de Matemáticas Uno
+   ============================================================ */
+
+/* ---------- Tipografía base ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #2c3e50;
+}
+
+/* ---------- Encabezados ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #1a5276;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+h1 {
+  font-size: 2.2em;
+  border-bottom: 3px solid #2980b9;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.7em;
+  border-bottom: 2px solid #85c1e9;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: #2471a3;
+}
+
+h4 {
+  font-size: 1.15em;
+  color: #2e86c1;
+}
+
+/* ---------- Enlaces ---------- */
+a {
+  color: #2980b9;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #1a5276;
+  text-decoration: underline;
+}
+
+/* ---------- Párrafos y listas ---------- */
+p {
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+ul, ol {
+  margin-bottom: 1em;
+  padding-left: 1.8em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* ---------- Código ---------- */
+code {
+  font-family: 'Roboto Mono', Consolas, Monaco, "Courier New", monospace;
+  background-color: #f4f6f7;
+  color: #c0392b;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  border-left: 5px solid #2980b9;
+  margin-bottom: 1.5em;
+}
+
+pre code {
+  background-color: transparent;
+  color: #ecf0f1;
+  padding: 0;
+  font-size: 0.85em;
+  white-space: pre;
+}
+
+.sourceCode {
+  background-color: #2c3e50;
+  border-radius: 8px;
+  border-left: 5px solid #2980b9;
+  padding: 0.8em;
+  margin-bottom: 1.5em;
+}
+
+/* ---------- Figuras y tablas ---------- */
+.figure {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.figure img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.figure p.caption {
+  color: #555;
+  font-size: 0.95em;
+  font-style: italic;
+  margin-top: 0.8em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #2980b9;
+  color: white;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f9f9;
+}
+
+tbody tr:hover {
+  background-color: #eaf2f8;
+}
+
+/* ---------- Bloques especiales ---------- */
+.rmdnote, .rmdcaution, .rmdimportant, .rmdtip, .rmdwarning {
+  padding: 1em 1.2em;
+  margin: 1.5em 0;
+  border-radius: 8px;
+  border-left: 6px solid;
+  background-color: #f8f9f9;
+}
+
+.rmdnote {
+  border-left-color: #2980b9;
+  background-color: #eaf2f8;
+}
+
+.rmdtip {
+  border-left-color: #27ae60;
+  background-color: #e9f7ef;
+}
+
+.rmdwarning, .rmdcaution {
+  border-left-color: #e67e22;
+  background-color: #fef5e7;
+}
+
+.rmdimportant {
+  border-left-color: #c0392b;
+  background-color: #fdedec;
+}
+
+/* ---------- Sidebar / TOC ---------- */
+.book .book-summary {
+  background-color: #f4f6f7;
+  border-right: 1px solid #d5dbdb;
+}
+
+.book .book-summary ul.summary li a {
+  color: #2c3e50;
+  font-weight: 400;
+  padding: 8px 15px;
+}
+
+.book .book-summary ul.summary li a:hover {
+  background-color: #d6eaf8;
+  color: #1a5276;
+  text-decoration: none;
+}
+
+.book .book-summary ul.summary li.active > a {
+  background-color: #2980b9;
+  color: white;
+  font-weight: 500;
+}
+
+/* Logo en TOC */
+.toc-logo {
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #d5dbdb;
+  margin-bottom: 10px;
+}
+
+.toc-logo img {
+  border-radius: 6px;
+  max-height: 100px;
+}
+
+/* ---------- Barra de navegación superior ---------- */
+.book .book-header {
+  background-color: #1a5276;
+  color: white;
+  border-bottom: 2px solid #2980b9;
+}
+
+.book .book-header h1 {
+  color: white;
+  border: none;
+  font-size: 1.3em;
+  opacity: 1;
+}
+
+.book .book-header .btn {
+  color: white;
+}
+
+.book .book-header .btn:hover {
+  color: #85c1e9;
+}
+
+/* ---------- Contenido principal ---------- */
+.book .book-body .page-wrapper .page-inner {
+  max-width: 900px;
+  padding: 30px 40px;
+}
+
+/* ---------- Fórmulas matemáticas ---------- */
+.math.display {
+  overflow-x: auto;
+  margin: 1.2em 0;
+  padding: 0.8em;
+  background-color: #f8f9f9;
+  border-radius: 6px;
+}
+
+/* ---------- Videos responsivos ---------- */
+iframe {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Pies de página y citas ---------- */
+.footnotes {
+  font-size: 0.9em;
+  color: #555;
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
+  margin-top: 2em;
+}
+
+/* ---------- Referencias bibliográficas ---------- */
+#references ~ div, #referencias ~ div, .references {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+#references p, #referencias p {
+  margin-bottom: 0.8em;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/* ---------- Scrollbar personalizada ---------- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2980b9;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a5276;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .book .book-body .page-wrapper .page-inner {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.7em;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+  }
+  
+  .figure img:hover {
+    transform: none;
+  }
+}
