@@ -1,9 +1,13 @@
-
-
-
-
 # Concepto de función {#FuncionExponencial-y-Logaritmica}
 
+
+
+
+
+**Podcast**
+<audio controls>
+  <source src="podcasts/cap06_funciones.mp3" type="audio/mpeg">
+</audio>
 
 
 <div class="figure" style="text-align: center">
@@ -11,7 +15,15 @@
 <p class="caption">(\#fig:ConceptoDeFuncion01)Concepto de función real [Imagen tomada de [@zill2012algebra] pág $200$]</p>
 </div>
 
-Una función es una relación especial entre dos conjuntos $A=D_{f}$ y $B=R_{f}$, donde a todo elemento $x$ del conjunto $A$ le corresponde uno y sólo un elemento $y$ del conjuto $B$. Cuando esta relación cumple la propiedad enunciada, diremos que la relación es una función. Es bueno recordar que no toda relación es función.
+::: {.definition #def-funcion}
+Una **función** $f$ es una relación especial entre dos conjuntos $A=D_{f}$ y $B=R_{f}$, donde a todo elemento $x$ del conjunto $A$ le corresponde uno y sólo un elemento $y$ del conjunto $B$. Se denota $y=f(x)$. Al conjunto $A$ se le llama **dominio** de $f$ y al conjunto $B$ se le llama **rango** (o codominio) de $f$.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_def-funcion.mp3" type="audio/mpeg">
+</audio>
+
 
 La siguiente gráfica ilustra la relación entre dos conjuntos en el plano $XY$, donde se muestra que cada punto de la gráfica es una pareja ordenada $(x_i,f(x_i))$.
 
@@ -25,7 +37,15 @@ La siguiente gráfica ilustra la relación entre dos conjuntos en el plano $XY$,
 
 
 
-<span style="color:red">**NOTA**</span>: Si los conjuntos $A$ y $B$ son subconjuntos del conjunto de los números reales, diremos que la función es de variable real. Al cojunto $A=D_{f}$ le llamaremos **dominio** de la función $f$, al conjunot $B=R_{f}$ le llamaremos **rando** de la función.
+::: {.definition #def-funcion-real}
+Si los conjuntos $A=D_{f}$ y $B=R_{f}$ son subconjuntos del conjunto de los números reales, diremos que $f$ es una **función de variable real**. Al conjunto $A=D_{f}$ se le llama **dominio** de $f$ y al conjunto de todos los valores de salida se le llama **rango** de $f$.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_def-funcion-real.mp3" type="audio/mpeg">
+</audio>
+
 
 
 
@@ -163,12 +183,17 @@ Esta es una demostración de transformación de funciones básicas. El autor Dan
 
 ## Función exponencial
 
-Una función exponencial tiene la forma
+::: {.definition #def-funcion-exponencial}
+Una **función exponencial** tiene la forma
+$$f(x)=b^x$$
+donde la base $b$ es un número real tal que $b>0$ y $b \neq 1$, y $x$ es el exponente (variable independiente).
+:::
 
-$$
-f(x)=b^x
-$$
-El número $b>0$ y $b \neq 1$ se llama base y $x$ se llama exponente.
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_def-funcion-exponencial.mp3" type="audio/mpeg">
+</audio>
+
 
 
 
@@ -198,25 +223,26 @@ Esta es una simulación realizada por Author:Tim Brzezinski elaborada usando geo
 
 ## Leyes de los exponentes
 
+::: {.proposition #prop-leyes-exponentes}
+Sean $b>0$ con $b \neq 1$, y sean $x,y$ números reales. Entonces se cumplen las siguientes leyes de los exponentes:
 
-1). $b^x.b^y=b^{x+y}$
-
+1). $b^x \cdot b^y=b^{x+y}$
 
 2). $\dfrac{b^x}{b^y}=b^{x-y}$
 
-
 3). $\dfrac{1}{b^x}=b^{-x}$
-
 
 4). $({b^x})^y=b^{xy}=b^{yx}$
 
-
-5). $({ab})^x=a^{x}.b^{x}$
-
+5). $({ab})^x=a^{x} \cdot b^{x}$
 
 6). $\left(\dfrac{a}{b}\right)^x=\dfrac{a^x}{b^x}$
+:::
 
-
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_prop-leyes-exponentes.mp3" type="audio/mpeg">
+</audio>
 
 ## Gráfica de una función exponencial
   
@@ -228,32 +254,41 @@ Esta es una simulación realizada por Author:Tim Brzezinski elaborada usando geo
 
 ## Propiedades de la función exponencial
 
-1). El dominio de la función exponencial es el conjunto de los números reales, esto es $D_f=(-\infty,\infty)$.
+::: {.proposition #prop-funcion-exponencial}
+Sea $f(x)=b^x$ una función exponencial con $b>0$ y $b \neq 1$. Entonces se cumplen las siguientes propiedades:
 
-2). El Rango de la función exponencial es el conjunto de los reales positivos sin cero, esto es, $R_f=(0,\infty)$.
+1). El dominio de $f$ es $(-\infty, \infty)$ y su rango es $(0, \infty)$.
 
-3). La intersección entre el eje $Y$ y la función exponencial está en $(0,1)$. La gráfica de la función exponencial no tiene intersección con el eje $X$.
+2). La intersección con el eje $Y$ está en $(0,1)$. No tiene intersección con el eje $X$.
 
-4). La función exponencial es creciente para una base $b>1$ y es decreciente para una base $0<b<1$.
+3). El eje $X$ ($y=0$) es asíntota horizontal.
 
-5). El eje $X$, esto es, $y=0$, es una asíntota horizontal en la gráfica de la función exponencial.
+4). $f$ es creciente si $b>1$, y decreciente si $0<b<1$.
 
-6). La función exponencial es continua en $(-\infty,\infty)$.
+5). $f$ es continua en $(-\infty, \infty)$.
 
-7). La función exponencial es una función uno a uno. (Es decir es biyectiva)
+6). $f$ es una función uno a uno (biyectiva sobre su rango).
+:::
 
-
-
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_prop-funcion-exponencial.mp3" type="audio/mpeg">
+</audio>
 
 
 ## Función logarítmica
 
-Una función logarítmica con la base $b>0$ y $b \neq 1$, se define por
+::: {.definition #def-funcion-logaritmica}
+Una **función logarítmica** con base $b>0$ y $b \neq 1$, se define por
+$$f(x)=\log_{b}(x)$$
+donde $x>0$.
+:::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_def-funcion-logaritmica.mp3" type="audio/mpeg">
+</audio>
 
-$$
-f(x)=log_{b}(x)
-$$
 
 
 
@@ -293,33 +328,46 @@ Esta es una simulación realizada por Author:Tim Brzezinski elaborada usando geo
 
 ## Propiedades de la función logarítmica
 
-1). El dominio de la función logarítmica es el conjuno de los números reales positivos, esto es $(0,\infty)$.
+::: {.proposition #prop-funcion-logaritmica}
+Sea $f(x)=\log_{b}(x)$ una función logarítmica con $b>0$ y $b \neq 1$. Entonces se cumplen las siguientes propiedades:
 
-2). El rango de la función logarítmica es el conjunto de todos los número reales, esto es $(-\infty,\infty)$.
+1). El dominio de $f$ es $(0, \infty)$ y su rango es $(-\infty, \infty)$.
 
+2). La intersección con el eje $X$ está en $(1,0)$. No tiene intersección con el eje $Y$.
 
-3). La intersección entre la función logarítmica y el eje $X$ está en $(1,0)$. La gráfica de la función logarítmica no tiene intersección con el eje $Y$.
+3). $f$ es creciente si $b>1$, y decreciente si $0<b<1$.
 
+4). El eje $Y$ ($x=0$) es asíntota vertical.
 
-4). La función logarítmica es creciente para $b>1$, y decreciente para $0<b<1$.
+5). $f$ es continua en $(0, \infty)$.
 
-5). El eje $Y$, esto es, $x=$, es asíntota vertical para la gráfica de la función logarítmica.
+6). $f$ es una función uno a uno (biyectiva sobre su rango).
+:::
 
-6). La función logarítmica es continua en $(0,\infty)$.
-
-7). La función logarítmica es uno a uno. (es decir biyectiva)
-
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_prop-funcion-logaritmica.mp3" type="audio/mpeg">
+</audio>
 
 
 ## Leyes de los logarítmos
 
-Para toda base  $b>0$ y $b \neq 1$, y para los números positivos $M$ y $N$.
+::: {.proposition #prop-leyes-logaritmos}
+Para toda base $b>0$ y $b \neq 1$, y para los números positivos $M$ y $N$, se cumplen las siguientes leyes de los logaritmos:
 
-1). $log_{b}(M.N)=log_{b}M+log_{b}N$
+1). $\log_{b}(M \cdot N)=\log_{b}M+\log_{b}N$
 
-2). $log_ {b}\left(\dfrac{M}{N}\right)=log_{b}M-log_{b}N$
+2). $\log_{b}\left(\dfrac{M}{N}\right)=\log_{b}M-\log_{b}N$
 
-3). $log_{b}M^c=c.log_{b}M$, para cualquier número real $c$.
+3). $\log_{b}M^c=c \cdot \log_{b}M$, para cualquier número real $c$.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_prop-leyes-logaritmos.mp3" type="audio/mpeg">
+</audio>
+
+
 
 
 
@@ -351,6 +399,12 @@ Obtener la solución para la ecuación
 \]
 
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_example9.mp3" type="audio/mpeg">
+</audio>
+
 
 <br></br>
 
@@ -388,6 +442,12 @@ Obtener la solución para la ecuación
 
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_example10.mp3" type="audio/mpeg">
+</audio>
+
+
 <br></br>
 
 ::: {.solution}
@@ -420,6 +480,12 @@ Se concluye que la solución para la ecuación es $x=3$.
 Supongamos una población de bacterias en un medio nutritivo homogéno, y que haciendo un muestreo de la población a ciertos intervalos, se determina que esa población se duplica cada hora. Si, en el instante $t$, la cantidad de bacterias es $p(t)$, donde $t$ se mide en horas, y la población inicial es $p(0)=10$, entonces obtener una fórmula para la población de bacterias en cualquier instante de tiempo $t$.
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_example11.mp3" type="audio/mpeg">
+</audio>
+
+
 <br></br>
 
 ::: {.solution}
@@ -443,6 +509,12 @@ $$p(t)=2^{t}(10)=10.2^{t} \qquad \text{población en cualquier instánte de tiem
 ::: {.example #unnamed-chunk-7 name="Vida media del estroncio 90"}
 La vida media del estroncio $90$. ${}^{90}Sr$ es de $25$ años. Esto significa que la mitad del cualquier cantidad dada de  ${}^{90}Sr$ se desintregrará en $25$ años. Si una muestra de  ${}^{90}Sr$ tiene una masa de $24 mg$, encuentre una expresión para la masa $m(t)$ que queda después de $t$ años.
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_example12.mp3" type="audio/mpeg">
+</audio>
+
 
 
 <br></br>
@@ -529,6 +601,12 @@ ln(2)+ln(4x-1)=ln(2x+10)
 
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_example13.mp3" type="audio/mpeg">
+</audio>
+
+
 
 <br></br>
 
@@ -566,6 +644,12 @@ Resolver para $x$ la ecuación:
 \left(log_{10}{2x}\right)^2=log_{10}(2x)^2
 \]
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/06-FuncionExponecial-y-Logaritmica_example14.mp3" type="audio/mpeg">
+</audio>
+
 
 
 <br></br>

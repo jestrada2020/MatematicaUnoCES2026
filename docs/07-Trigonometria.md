@@ -4,7 +4,10 @@
 
 
 
-
+**Podcast**
+<audio controls>
+  <source src="podcasts/cap07_trigonometria.mp3" type="audio/mpeg">
+</audio>
 
 ## ¿Qué es la trigonometría?
 
@@ -82,14 +85,31 @@ Esta es una forma visual de ver aplicaciones trigonométicas; en especial las le
 
 ## Definición de Ángulo
 
-Un ángulo se forma con dos rayos o semirectas, que tienen un extremo común llamado vértice. A un rayo lo llammos lado inicial, y al otro,
-lado terminal.
+::: {.definition #def-angulo}
+Un **ángulo** se forma con dos rayos o semirectas que tienen un extremo común llamado **vértice**. A un rayo se le llama **lado inicial**, y al otro **lado terminal**. Es útil imaginar el ángulo como formado por una rotación desde el lado inicial hasta el lado terminal.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/07-Trigonometria_def-angulo.mp3" type="audio/mpeg">
+</audio>
+
 
 Es útil imaginar el ángulo como formado por una rotación, desde el lado inicial hasta el lado terminal como se puede ver en la gráfica.
 
 <center> ![](images/ANGULOdef1.jpg){width=35%}</center>
 
-## Medición de un ángulo en grados:
+## Medición de un ángulo en grados
+
+::: {.definition #def-grado}
+La **medida de un ángulo en grados** se basa en la asignación de $360$ grados al ángulo formado por una rotación completa en sentido contrario a las manecillas del reloj.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/07-Trigonometria_def-grado.mp3" type="audio/mpeg">
+</audio>
+
 
 La medición de un ángulo en unidades de grados se basa en la asignación de 360 grados al ángulo formado por una rotación completa en el sentido
 contrario a las manecillas del reloj.
@@ -400,8 +420,28 @@ Esta es una aplicación la cual muestra las seis funciones trigonométricas dado
 
 
 
-## Teorema de Pítagoras e identidad trigonométrica
+## Teorema de Pitágoras e identidad trigonométrica
 
+::: {.theorem #teorema-pitagoras}
+En un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos. Si los catetos miden $a$ y $b$, y la hipotenusa mide $c$, entonces:
+$$a^2+b^2=c^2$$
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/07-Trigonometria_teorema-pitagoras.mp3" type="audio/mpeg">
+</audio>
+
+
+::: {.theorem #identidad-trigonometrica-fundamental}
+Para cualquier ángulo $\theta$ se cumple la **identidad trigonométrica fundamental**:
+$$\text{sen}^2(\theta)+\cos^2(\theta)=1$$
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/07-Trigonometria_identidad-trigonometrica-fundamental.mp3" type="audio/mpeg">
+</audio>
 
 
 Esta es una demostración de la identidad trigonométrica básica. El autor Daniel Mentrard (https://www.geogebra.org/m/gdzedzvk) la elaboro usando geogebra.
@@ -430,8 +470,20 @@ Esta es una demostración de la identidad trigonométrica básica. El autor Dani
 
 
 
-## Identidad trigonométrica básicas
+## Identidades trigonométricas básicas
 
+::: {.proposition #prop-identidades-trigonometricas}
+Para cualquier ángulo $\theta$ se cumplen las siguientes identidades trigonométricas básicas:
+
+- $\text{sen}^2(\theta)+\cos^2(\theta)=1$
+- $1+\tan^2(\theta)=\sec^2(\theta)$
+- $1+\cot^2(\theta)=\csc^2(\theta)$
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/07-Trigonometria_prop-identidades-trigonometricas.mp3" type="audio/mpeg">
+</audio>
 
 
 Esta es una manera de memorizar las identidades trigonométricas básicas. El autor Daniel Mentrard (https://www.geogebra.org/m/t6ppq7gs) la elaboro usando geogebra.
@@ -696,6 +748,11 @@ Esta es una aplicación de la ley del coseno, el Author:Ken Schwartz (https://ww
 
 **Enunciado pág 446 texto guía**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/07-Trigonometria_Modelo22__Problema_del_tri_ngulo_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 Una cometa queda atorada en las ramas de la copa de un árbol. Si el hilo de 90 pies de la cometa forma un ángulo de $22^{\circ}$ con el suelo, estime la altura del árbol, calculando la distancia de la cometa al suelo.
 
 
@@ -718,6 +775,11 @@ $$
 ## Modelo24 (Problema del triángulo)
 
 **Enunciado pág 447 texto guía**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/07-Trigonometria_Modelo24__Problema_del_tri_ngulo_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Un topógrafo usa un instrumento llamdo teodolito para medir el ángulo de elevación entre el nivel del piso y la cumbre de una montaña. En un punto, se mide un ángulo de elevación de $41^{\circ}$. Medio kilómetro más lejos de la base de la montaña, el ángulo de elevación medido es de $37^{\circ}$. ¿Qué altura tiene la montaña?
 

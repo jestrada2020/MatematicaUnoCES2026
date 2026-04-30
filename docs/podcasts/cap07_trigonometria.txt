@@ -1,0 +1,1 @@
+Este capítulo introduce la trigonometría. Definiremos ángulo, medida en grados y radianes, y las seis funciones trigonométricas en el triángulo rectángulo. Estudiaremos el teorema de Pitágoras, identidades trigonométricas básicas, ángulos de elevación y depresión, y las leyes del seno y del coseno.

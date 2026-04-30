@@ -1,9 +1,23 @@
-# Planteo y solución de problemas {#Planteo-y-solucion-de-problemas}
+# Planteo y solución de problemas
 
 
 
 
 
+::: {.definition #def-planteo-problemas}
+El **planteo y solución de problemas** es el proceso de traducir un enunciado verbal a un modelo matemático (generalmente una o varias ecuaciones), resolver dicho modelo y finalmente interpretar la solución en el contexto del problema original, verificando que satisface todas las condiciones planteadas.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_def-planteo-problemas.mp3" type="audio/mpeg">
+</audio>
+
+
+**Podcast**
+<audio controls>
+  <source src="podcasts/cap05_planteo.mp3" type="audio/mpeg">
+</audio>
 
  <span style="color:blue">**Planteo y solución de problemas**</span>
  
@@ -168,6 +182,11 @@ Este proceso de revisión es a veces necesario hacerlo dos o tres veces ya que l
 
 **Enunciado pág 119 texto guía**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo1__Problema_de_las_edades_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 Hace dos años John tenia cinco veces la edad de Bill. Ahora es $8$ años mayor que él. Encuentre la edad actual de John
 
 **Planteo del problema**
@@ -215,6 +234,11 @@ x-2 & = & 5x-50 \\
 
 **Enunciado pág 124 texto guía**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo2__Problema_de_las_edades_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 En $5$ años Bryan tendrá tres veces la edad que tenía hace $7$ años.¿ Cuántos años tiene?
 
 
@@ -261,6 +285,11 @@ $13-7=6$ es la edad de Bryan en el pasado (ó atrás)
 ## Modelo3 (Problema de las dimensiones)
 
 **Enunciado Problema (1) del taller 2**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo3__Problema_de_las_dimensiones_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 En la Figura se muestra los puntos medios de los lados en un triángulo. Determine los vértices del triángulo.
 
@@ -452,6 +481,11 @@ Respuesta: Los vértices del triángulo son. $(x_1=-2,y_1=0)$, $(x_2=4,y_2=2)$, 
 
 **Enunciado pág 123 texto guía**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo4__Problema_de_las_dimensiones_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 Un campo rectángular $20m$ más largo que ancho está circundado por exactamente $100m$ de cerca. ¿ Cuáles son las dimensiones del campo?
 
 
@@ -502,6 +536,11 @@ Simplificando en el lado derecho, se obtiene:
 ## Modelo5 (Problema de las dimensiones)
 
 **Enunciado pág 132 texto guía**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo5__Problema_de_las_dimensiones_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 El área de un rectángulo es de $138cm^2$. El largo es $5cm$ más que $3$ veces el ancho. Halle las dimensiones del rectángulo.
 
@@ -565,6 +604,11 @@ $$
 ## Modelo6 (Problema de las aceras)
 
 **Enunciado pág 133 texto guía**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo6__Problema_de_las_aceras_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 En un parque, dos aceras forman un ángulo recto con el patio $P$, el puesto de refrigerios $R$ y el estacionamiento $E$, como se muestra en la figura. La longitud total de las aceras es de $700m$. Al caminar diagonalmente a través del pasto (línea punteada roja) directamente del estacionamiento al patio, los niños acortan la distancia $200m$. ¿Cuál es la longitud de cada acera?
 
@@ -635,6 +679,11 @@ donde $I$ es la cantidad de interés ganado por una suma de dinero $C$ (llamada 
 
 
 **Enunciado pág 119 y 120 texto guía**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo7__Problema_de_inter_s_simple_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Una empresaría planea invertir un total de 30000 dólares. Parte de esta suma se invertirá en un certificado de depósito que paga $3 \%$ de interés simple y el resto en un fondo de inversión que produce $5.5 \%$ de interés simple. ¿ Cuánto debe invertir en cada uno para obtener un rendimiento de $4 \%$ sobre su dinero después de un año?
 
@@ -715,6 +764,11 @@ $$
 
 **Enunciado pág 120 y 121 texto guía**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo8__Problema_de_velocidad_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 Un motociclista tarda $1hora$ y $30minutos$ más en la noche que en el día viajar entre dos ciudades. En la noche recorre un promedio de $40 millas$ por hora en tanto que en el día puede recorrer un promedio de $55millas$ por hora. Encuentre la distancia entre las dos ciudades.
 
 
@@ -762,6 +816,11 @@ La distancia entre las dos ciudades es de $220 millas$
 ## Modelo9 (Problema de mezcla)
 
 **Enunciado pág 121 texto guía**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo9__Problema_de_mezcla_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Halle cuántos $litros$ de alcohol puro debe añadirse a $15 litros$ de solución que contiene $20\%$ de alcohol para que la mezcla resultante sea de $30\%$ de alcohol.
 
@@ -819,6 +878,11 @@ Varias personas (ò máquinas) que hacen el mismo trabajo, cada una a velecidad 
 Si una persona puede hacer un trabajo completo en $5 horas$, entonces en $3 horas$ termina $\dfrac{3}{5}$ del trabajo.
 
 **Enunciado pág 122 texto guía**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo10__Problema_de_trabajo_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Trabajando sola, la bomba $A$ llena un tanque en $2 horas$ y la bomba $B$ llena el mismo tanque en $3 horas$. Determine la rapidez con que las bombas llenarían el tanque trabajando juntas.
 
@@ -894,7 +958,6 @@ Gráfica de la relación directa entre dos magnitudes
 
 
 <!-- <center> ![](/home/john/Documentos/DOC-RMD-CLASESUCESV1/FIGURASFNC2017/RelacionDirecta1.jpg){width=25%}</center> -->
-[Link para aplicar regla de tres simple y directa](https://jestradaalvarezncasa2022v2.shinyapps.io/Regla3SimpleV1/)
 
 
 
@@ -916,7 +979,6 @@ Gráfica de la relación inversa entre dos magnitudes
 
 
 <!-- <center> ![](/home/john/Documentos/DOC-RMD-CLASESUCESV1/FIGURASFNC2017/RelacionInversa1.jpg){width=35%}</center> -->
-[Link para aplicar regla de tres simple e inversa](https://jestradaalvarezncasa2022v2.shinyapps.io/ReglaDe3SimpleInversaV1/)
 
 
 ## Regla de tres simple y directa
@@ -924,14 +986,14 @@ Gráfica de la relación inversa entre dos magnitudes
 En la regla de tres simple y directa, se establece la relación de proporcionalidad entre dos valores conocidos M1 y M2, y conociendo un tercer valor M3, podemos calcular un cuarto valor M4. En general estas relaciones se pueden representar mediante el siguiente digrama (ó esquema):
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera Magnitud}&  &\text{Segunda Magnitud}\\
 M1 & \longrightarrow & M2 \\
 M3 & \longrightarrow & M4=?
 \end{array}
-\]
+\end{equation}
 
 
 
@@ -944,14 +1006,16 @@ $$
 
 Ejemplo con esquema:
 
-\[
+
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera Magnitud}&  &\text{Segunda Magnitud}\\
 a & \longrightarrow & c \\
 b & \longrightarrow & x
 \end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{bc}{a}
-\]
+\end{equation}
+
 
 Colocaremos los datos como muestra el esquema, los 3 datos (a los que llamamos “a”, “b” y “c”) y la incógnita, es decir, el dato que queremos averiguar (que llamaremos “x”). 
 
@@ -962,29 +1026,28 @@ Después, aplicaremos la fórmula como lo indica el esquema.
 
 Con $10$ dólares compro $4$ libros. ¿Cuántos libros compraré con $25$ dólares?
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera Magnitud}&  &\text{Segunda Magnitud}\\
 10 \ \text{dólares} & \longrightarrow & 4 \ \text{libros} \\
 25 \ \text{dólares} & \longrightarrow & x \ \text{libros}
-\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(25).(4)}{10}\\
-x = \dfrac{(5).(2)}{1}=10
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(25).(4)}{10}=\dfrac{(5).(2)}{1}=10
+\end{equation}
 
 **Repuesta**: Comprará $10$ libros con $25$ dólares.
 
 ## Regla de tres simple e inversa
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera Magnitud}&  &\text{Segunda Magnitud}\\
 M1 & \longrightarrow & M2 \\
 M3 & \longrightarrow & M4=?
 \end{array}
-\]
+\end{equation}
 
 
 
@@ -996,15 +1059,14 @@ $$
 
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera Magnitud}&  &\text{Segunda Magnitud}\\
 a & \longrightarrow & c \\
 b & \longrightarrow & x
-\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ ac=bx \\
-\ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{ac}{b}
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ ac=bx \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{ac}{b}
+\end{equation}
 
 
 
@@ -1030,16 +1092,14 @@ A más obreros menos tiempo tardarán, luego hay que usar una regla de tres inve
 **sugerencia**: 1mes tiene 30 dias.
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera Magnitud}&  &\text{Segunda Magnitud}\\
 10 \ \text{obreros} & \longrightarrow & 60 \ \text{días} \\
 15 \ \text{obreros} & \longrightarrow & x \ \text{días}
-\end{array} \\ \ \ \  \Longrightarrow \ \ \ \ \ (10).(60)=(15).x \\
-\ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(10).(60)}{15}\\
-x =\dfrac{(2).(20)}{1}=40
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ (10).(60)=(15).x \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(10).(60)}{15}=\dfrac{(2).(20)}{1}=40
+\end{equation}
 
 **Repuesta**: Los $15$ obreros tardarán $40$ días.
 
@@ -1053,41 +1113,36 @@ Un grifo con un determinado caudal tarda 30 minutos en llenar un depósito.
 **Obs**: A más grifos (o más caudal) menos tiempo, luego hay que usar una regla de tres inversa.
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera Magnitud}&  &\text{Segunda Magnitud}\\
 1 \ \text{grifo} & \longrightarrow & 30 \ \text{minutos} \\
 3 \ \text{grifos} & \longrightarrow & x \ \text{minutos}
-\end{array} \\
-\ \ \  \Longrightarrow \ \ \ \ \ (1).(30)=(3).x \\
-\ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(1).(30)}{3}=\dfrac{(1).(10)}{1}=10
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ (1).(30)=(3).x \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(1).(30)}{3}=\dfrac{(1).(10)}{1}=10
+\end{equation}
 
 **Repuesta**: Los $3$ grifos tardarán $10$ minutos.
 
 
-
-[Link para aplicar regla de tres compuesta](https://jestradaalvarezncasa2022v2.shinyapps.io/ReglaDe3CompuestaV1/)
-
-
 ## Regla de tres simple compuesta
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
 \text{Magnitud}&  &\text{Magnitud}&  &\text{Magnitud}\\
+
 a & \longrightarrow & c & \longrightarrow & e\\
 b & \longrightarrow & d & \longrightarrow & x
 \end{array} 
-\]
+\end{equation}
 
 
 ## Directamente proporcional
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
@@ -1096,13 +1151,13 @@ DP & & DP &  & \\
 a & \longrightarrow & c & \longrightarrow & e\\
 b & \longrightarrow & d & \longrightarrow & x
 \end{array} \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{e}{x}=\dfrac{a}{b}.\dfrac{c}{d}
-\]
+\end{equation}
 
 
 
 ## Inversamente proporcional
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
@@ -1111,13 +1166,13 @@ IP & & IP &  & \\
 a & \longrightarrow & c & \longrightarrow & e\\
 b & \longrightarrow & d & \longrightarrow & x
 \end{array} \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{e}{x}=\dfrac{b}{a}.\dfrac{d}{c}
-\]
+\end{equation}
 
 
 ## Directamente e Inversamente proporcional (Mixta)
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
@@ -1126,7 +1181,7 @@ IP & & DP &  & \\
 a & \longrightarrow & c & \longrightarrow & e\\
 b & \longrightarrow & d & \longrightarrow & x
 \end{array} \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{e}{x}=\dfrac{b}{a}.\dfrac{c}{d} 
-\]
+\end{equation}
 
 
 
@@ -1137,7 +1192,7 @@ b & \longrightarrow & d & \longrightarrow & x
 4 obreros trabajando 7 horas diarias construyen un muro en 3 días. ¿Cuántos días tardaran 2 obreros trabajando 6 horas diarias en contruir un muro igual?
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
@@ -1146,9 +1201,8 @@ IP & & IP &  & \\
 OBREROS & \longrightarrow & HORAS & \longrightarrow & DIAS\\
 4 & \longrightarrow & 7 & \longrightarrow & 3\\
 2 & \longrightarrow & 6 & \longrightarrow & x
-\end{array} \\
-\ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{3}{x}=\dfrac{2}{4}.\dfrac{6}{7} \ \ \ \  \Longrightarrow \ \ \ \ x=\dfrac{21}{3}=7
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{3}{x}=\dfrac{2}{4}.\dfrac{6}{7} \ \ \ \  \Longrightarrow \ \ \ \ x=\dfrac{21}{3}=7
+\end{equation}
 
 
 **Respuesta**: Los 2 obreros trabajando 6 horas se demoran 7 días para construir el muro.
@@ -1173,7 +1227,7 @@ $$
 9 grifos abiertos durante 40 horas han consumido 200 litros de agua. ¿Cuántos litros consumen 15 grifos iguales durante 9 horas?
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
@@ -1182,9 +1236,8 @@ DP & & DP &  & \\
 GRIFOS & \longrightarrow & HORAS & \longrightarrow & LITROS\\
 9 & \longrightarrow & 40 & \longrightarrow & 200\\
 15 & \longrightarrow & 9 & \longrightarrow & x
-\end{array} \\
-\ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{200}{x}=\dfrac{9}{15}.\dfrac{40}{9} \ \ \ \  \Longrightarrow \ \ \ \ x=\dfrac{25.3}{1}=75
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{200}{x}=\dfrac{9}{15}.\dfrac{40}{9} \ \ \ \  \Longrightarrow \ \ \ \ x=\dfrac{25.3}{1}=75
+\end{equation}
 
 
 
@@ -1220,7 +1273,7 @@ $$
 
 Tres secretarias escriben 10 cartas en 3 horas.¿Cuántas cartas escribirán 9 secretarias en 6 horas?
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
@@ -1229,20 +1282,17 @@ DP & & DP &  & \\
 SECRETARIAS & \longrightarrow & HORAS & \longrightarrow & CARTAS\\
 3 & \longrightarrow & 3 & \longrightarrow & 10\\
 9 & \longrightarrow & 6 & \longrightarrow & x
-\end{array} \\
-\ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{10}{x}=\dfrac{3}{9}.\dfrac{3}{6} \ \ \ \  \Longrightarrow \ \ \ \ \ \dfrac{10}{x}=\dfrac{9}{(9).(6)} \ \ \ \ \Longrightarrow  \ \ \ \ \ x=60
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{10}{x}=\dfrac{3}{9}.\dfrac{3}{6} \ \ \ \  \Longrightarrow \ \ \ \ \ \dfrac{10}{x}=\dfrac{9}{(9).(6)} \ \ \ \ \Longrightarrow  \ \ \ \ \ x=60
+\end{equation}
 
 
-
-[Link para aplicar regla de tres compuesta con cuatro magnitudes](https://jestradaalvarezncasa2022v2.shinyapps.io/Regla3Comp4MagV1/)
 
 ## Modelo17 (Problema Regla de tres compuesta ó Mixta)
 
 Si 6 hombres realizan un muro de 30 metros trabajando 6 horas diarias durante 9 días. ¿Cuántos días necesitan 10 hombres trabajando 9 horas diarias para realizar los 50 metros del muro que faltan?
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}&  &\text{Cuarta}\\
@@ -1252,8 +1302,9 @@ HOMBRES & \longrightarrow & METROS & \longrightarrow & HORAS & \longrightarrow &
 6 & \longrightarrow & 30 & \longrightarrow & 6 & \longrightarrow & 9\\
 10 & \longrightarrow & 50 & \longrightarrow & 9 & \longrightarrow & x
 \end{array} \\
+
 \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{9}{x}=\dfrac{10}{6}.\dfrac{30}{50}.\dfrac{9}{6} \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(9).(6).(50).(6)}{(10).(30).(9)} \ \ \ \ \Longrightarrow  \ \ \ \ \ x=6
-\]
+\end{equation}
 
 **Respuesta**: Se demoran 6 dias
 
@@ -1262,7 +1313,7 @@ HOMBRES & \longrightarrow & METROS & \longrightarrow & HORAS & \longrightarrow &
 
 A un adulto de $65kg$ de peso se le coloca una dosis de cierto medicamento equivalente a $650 mg$ por día, ¿cuánto deberá aplicarsele a un niño cuyo peso es de $20kg$?
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera}&  &\text{Segunda}\\
@@ -1271,7 +1322,7 @@ Esquema: \ \
 65 \ \text{kg} & \longrightarrow & 650 \ \text{mg} \\
 20 \ \text{kg} & \longrightarrow & x \ \text{mg}
 \end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(650).(20)}{65}=\dfrac{(10).(20)}{1}=200
-\]
+\end{equation}
 
 **Repuesta**: Deberá aplicarsele 200mg a un niño cuyo peso es de $20kg$.
 
@@ -1280,7 +1331,7 @@ Esquema: \ \
 
 Si un poste proyecta una sombra de $190,5 cm$ de largo y al mismo tiempo un hombre de $154 cm$ de estatura proyecta una sombra de $106 cm$ de largo. Qué altura tiene la torre?
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{ccc}
 \text{Primera}&  &\text{Segunda}\\
@@ -1289,7 +1340,7 @@ Esquema: \ \
 154 \ \text{cm} & \longrightarrow & 106 \ \text{cm} \\
 190,5 \ \text{cm} & \longrightarrow & x \ \text{cm}
 \end{array} \ \ \ \  \Longrightarrow \ \ \ \ \ x =  \dfrac{(190,5).(106)}{154}\simeq 131,1234
-\]
+\end{equation}
 
 **Repuesta**: La altura de la torre es apróximadmente $131,123 cm$.
 
@@ -1301,7 +1352,7 @@ Esquema: \ \
 Un atleta marchando a $12 km$ por hora recorre en varias etapas un camino, empleando $9$ días a razón de $7$ horas por día. A qué velocidad tendrá que ir si desea emplear sólo 6 días a razón de 9 horas?
 
 
-\[
+\begin{equation}
 Esquema: \ \ 
 \begin{array}{cccc}
 \text{Primera}&  &\text{Segunda}&  &\text{Tercera}\\
@@ -1310,9 +1361,8 @@ Esquema: \ \
 VELOCIDAD & \longrightarrow & DIAS & \longrightarrow & HORAS\\
 12 & \longrightarrow & 9 & \longrightarrow & 7\\
 x & \longrightarrow & 6 & \longrightarrow & 9
-\end{array} \\
-\ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{12}{x}=\dfrac{6}{9}.\dfrac{9}{7} \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(12).(9)(7)}{(6).(9)} \ \ \ \ \Longrightarrow  \ \ \ \ \ x=14
-\]
+\end{array} \ \ \ \  \Longrightarrow \ \ \ \ \  \ \ \ \ \ \dfrac{12}{x}=\dfrac{6}{9}.\dfrac{9}{7} \ \ \ \  \Longrightarrow \ \ \ \ \ x=\dfrac{(12).(9)(7)}{(6).(9)} \ \ \ \ \Longrightarrow  \ \ \ \ \ x=14
+\end{equation}
 
 
 
@@ -1339,6 +1389,11 @@ x & \longrightarrow & 6 & \longrightarrow & 9
 ## Modelo23 (Problema de la caja)
 
 **Enunciado del taller $\# 39$**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo23__Problema_de_la_caja_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Se hace un recipiente con una pequeña hoja de estaño cuadrada cortando un cuadrado de $3$ pulgadas de cada esquina y doblando los lados, ver la Figura. La caja va a tener un volumen de $48$ pulgadas cúbicas. Halle la longitud de uno de los lados de la hoja de estaño original.
 
@@ -1415,6 +1470,11 @@ Despejando para la variable $x$ en la ecuación
 ## Modelo25 (Problema del triángulo)
 
 **Enunciado del taller $\# 23$**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo25__Problema_del_tri_ngulo_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Obtenga el área del triángulo rectángulo que se ilustra en la Figura .
 
@@ -1548,6 +1608,11 @@ $$
 
 **Enunciado del taller $\# 16$**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo26__Problema_de_mezcla_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 El radiador de un automóvil contiene $10$ cuartos de galón de una mezcla de agua y $20 \%$ de anticongelante. ¿Qué cantidad de esta mezcla debe vaciarse y reemplazarse por anticongelante puro para obtener una mezcla de $50 \%$ en el radiador?
 
 **Proceso de solución**
@@ -1588,6 +1653,11 @@ $$
 ## Modelo27 (Problema de mezcla)
 
 **Enunciado del taller $\# 25$**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo27__Problema_de_mezcla_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Un carnicero vende carne molida de res de cierta calidad a $\$ 3.95$ y de otra calidad a $\$ 4.20$ la libra. Quiere mezclar las dos calidades para obtener una mezcla que se venda a $\$ 4.15$ la libra. ¿Qué porcentaje de carne de cada calidad debe usar?.
 
@@ -1657,6 +1727,11 @@ y=\dfrac{\begin{vmatrix}
 ## Modelo28 (Problema de velocidad1)
 
 **Enunciado del taller $\# 34$**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo28__Problema_de_velocidad1_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Un jet voló de Nueva York a los Ángeles, una distancia de $4200$ kilómetros. La rapidez del viaje de regreso fue de $100$ kilómetros por hora mayor que la ida. Si el total del viaje tomó $13$ horas, cuál fue la rapidez de Nueva York a los Ángeles?
 
@@ -1784,6 +1859,11 @@ $$
 
 **Enunciado del taller $\# 54$**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo30__Problema_de_la_regi_n_sombreada_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 Considere los cuatro círculos que se ilustran en la Figura. Exprese el área de la región sombreada entre ellos como función de $h$.
 
 
@@ -1910,6 +1990,11 @@ $$
 
 **Enunciado del taller $\# 32$**
 
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo39__Problema_de_trabajo_enunciado.mp3" type="audio/mpeg">
+</audio>
+
 Margot limpia su habitación en 50 minutos ella sola. Si Jeremy la ayuda, tarda 30 minutos.¿Cuánto tiempo tardará Jeremy en limpiar la habitación él sólo?
 
 
@@ -1950,6 +2035,11 @@ t & = & 75 minutos
 ## Modelo 40 (Problema de velocidad2)
 
 **Enunciado del taller $\# 21$**
+
+**Podcast del enunciado**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/05-Planteo-y-solucion-de-problemas_Modelo39__Problema_de_trabajo_enunciado.mp3" type="audio/mpeg">
+</audio>
 
 Un jet vuela con el viento a favor entre Los Ángeles y Chicago en $3.5 h$, y contra el viento de Chicago a Los Ángeles en $4 h$. La velocidad del avión sin viento es de $600 mi/h$. Calcule la velocidad del viento. ¿Qué distancia hay entre Los Ángeles y Chicago?
 

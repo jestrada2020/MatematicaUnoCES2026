@@ -4,16 +4,42 @@
 
 
 
+**Podcast**
+<audio controls>
+  <source src="podcasts/cap03_ecuaciones.mp3" type="audio/mpeg">
+</audio>
+
+## Definición de ecuación
+
+::: {.definition #unnamed-chunk-1}
+Una **ecuación** es una igualdad matemática entre dos expresiones algebraicas, llamadas miembros, en la que aparecen una o más incógnitas. Una **solución** de la ecuación es un valor de la incógnita que hace verdadera la igualdad.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/03-SolucionDeEcuaciones_definition1.mp3" type="audio/mpeg">
+</audio>
+
+
 ## Propiedades de las ecuaciones
 
+::: {.theorem #propiedades-ecuaciones}
+Si $A=B$ es una ecuación, entonces se cumplen las siguientes propiedades:
 
-(1) Cuando se <font color='red'>suma o resta</font> un número a ambos lados de la igualdad, la igualdad se mantiene.
+(1) Si se suma o resta un mismo número a ambos lados de la igualdad, la igualdad se mantiene.
 
-(2) Cuando se <font color='red'>multiplica o divide</font> por un mismo número, distinto de cero, en ambos lados de la igualdad, la igualdad se mantiene.
+(2) Si se multiplica o divide por un mismo número distinto de cero en ambos lados de la igualdad, la igualdad se mantiene.
 
-(3) Cuando se <font color='red'>eleva</font> a una potencia distinta de cero ambos miembros de la igualdad, la igualdad se mantiene.
+(3) Si se eleva a una potencia distinta de cero ambos miembros de la igualdad, la igualdad se mantiene.
 
-(4) Cuando se <font color='red'>extrae la misma raíz</font>, en ambos lados de la igualdad, la igualdad se mantiene.
+(4) Si se extrae la misma raíz en ambos lados de la igualdad, la igualdad se mantiene.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/03-SolucionDeEcuaciones_propiedades-ecuaciones.mp3" type="audio/mpeg">
+</audio>
+
 
 
 
@@ -23,13 +49,23 @@
 
 ## Ley distributiva
 
+::: {.theorem #ley-distributiva-cap3}
+Sean $a$, $b$ y $c$ números reales. Entonces se cumple la **ley distributiva**:
+$$a(b+c)=ab+ac$$
+También se cumple la forma derecha:
+$$(b+c)a=ba+ca$$
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/03-SolucionDeEcuaciones_ley-distributiva-cap3.mp3" type="audio/mpeg">
+</audio>
+
 
 <div class="figure" style="text-align: center">
 <img src="images/GraficaLeyDistributiva1.jpg" alt="Grafica ley distributiva [Imagen tomada de [@swokowski1996algebra] pág $17$]"  />
 <p class="caption">(\#fig:LeyDist1)Grafica ley distributiva [Imagen tomada de [@swokowski1996algebra] pág $17$]</p>
 </div>
-
-
 
 $$\left(b+c \right)a=ba+ca \ \ \ \ \text{la } a \text{ se distribuye a derecha del factor } \ \ (b+c)$$
 $$a\left(b+c \right) =ab+ac \ \ \ \ \text{la } a \text{ se distribuye a izquierda del factor } \ \ (b+c)$$
@@ -38,9 +74,15 @@ $$a\left(b+c \right) =ab+ac \ \ \ \ \text{la } a \text{ se distribuye a izquierd
 
 ## Factorización (Tema1)
 
-**Definición de Factorización**
+::: {.definition #def-factorizacion}
+La **factorización** es el proceso de expresar un polinomio como un producto de polinomios de menor grado, llamados factores, de tal forma que la expresión resultante sea equivalente a la original.
+:::
 
-Es el arte de tomar una expresión algebraica compuesta, y llevarla a una forma equivalente de sólo productos de factores.
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/03-SolucionDeEcuaciones_def-factorizacion.mp3" type="audio/mpeg">
+</audio>
+
 
 **Podcast**
 [Definición de que es factorizar](https://soundcloud.com/john-estrada-920356121/factorizacion1)
@@ -520,6 +562,25 @@ Es decir no se puede aplicar la regla de la cruceta y tampoco la factorización 
 
 ## Productos notables básicos
 
+::: {.proposition #prop-productos-notables}
+Sean $a$ y $b$ números reales. Entonces se cumplen los siguientes productos notables:
+
+(1) **Suma al cuadrado:** $(a+b)^2=a^2+2ab+b^2$
+
+(2) **Diferencia al cuadrado:** $(a-b)^2=a^2-2ab+b^2$
+
+(3) **Diferencia de cuadrados:** $a^2-b^2=(a-b)(a+b)$
+
+(4) **Suma al cubo:** $(a+b)^3=a^3+3a^2b+3ab^2+b^3$
+
+(5) **Diferencia al cubo:** $(a-b)^3=a^3-3a^2b+3ab^2-b^3$
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/03-SolucionDeEcuaciones_prop-productos-notables.mp3" type="audio/mpeg">
+</audio>
+
 
 ### Suma al cuadrado
 
@@ -642,7 +703,7 @@ Author: José María Arias Cabezas
 ## Operaciones con polinomios
 
 
-::: {.definition #unnamed-chunk-1}
+::: {.definition #unnamed-chunk-2}
 Un **Polinomio** $P(x)$ es una expresión de la forma
 $$
   P(x)=a_nx^n+a_{n-1}x^{n-1}+...+a_{2}x^2+a_{1}x^1+a_{0}
@@ -650,6 +711,12 @@ $$
 
 donde $a_n$, $a_{n-1}$,...,$a_0$ son los coeficientes del polinomio los cuales pertenecen al conjunto de los númerios reales. Diremos que el grado del polinomio es $n$, si y sólo si $a_n\neq 0$
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/03-SolucionDeEcuaciones_definition6.mp3" type="audio/mpeg">
+</audio>
+
 
 
 <div class="figure" style="text-align: center">
@@ -1201,9 +1268,15 @@ A + E & = B\sqrt[3]{\dfrac{C}{D}} \\
 <p class="caption">(\#fig:CerosDeEcu1)Ceros (ó corte) de una función con el eje $X$ [Imagen tomada de [@swokowski1996algebra] pág $169$]</p>
 </div>
 
-::: {.definition #unnamed-chunk-2}
+::: {.definition #unnamed-chunk-3}
 Se define $x=r$ como un cero (ó raíz) de una función $f(x)=0$, si y sólo si $f(r)=0$. Además el cero (ó raíz) de una función es la intersección entre el eje $X$ y la gráfica de $f(x)$.
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/03-SolucionDeEcuaciones_definition7.mp3" type="audio/mpeg">
+</audio>
+
 
 
 

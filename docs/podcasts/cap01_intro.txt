@@ -1,0 +1,1 @@
+Bienvenidos al capítulo de introducción. En este capítulo estudiaremos la teoría de conjuntos, incluyendo operaciones como unión, intersección, diferencia y complemento. También repasaremos las propiedades de los números reales, la recta numérica, intervalos, desigualdades y el concepto de valor absoluto. Estos temas son fundamentales para todo el curso de matemáticas.

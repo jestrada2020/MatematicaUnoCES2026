@@ -1,0 +1,1 @@
+Este capítulo se enfoca en el planteo y solución de problemas. Veremos estrategias para traducir enunciados verbales a modelos matemáticos, resolver ecuaciones e interpretar las soluciones. Estudiaremos problemas de edades, dimensiones, interés simple, velocidad, mezclas, trabajo y regla de tres simple y compuesta.

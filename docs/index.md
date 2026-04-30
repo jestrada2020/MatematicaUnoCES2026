@@ -1,67 +1,36 @@
 --- 
 title: "Curso básico de Matemáticas Uno"
-author: "Carlos Andrés Escobar Guerra - Juan Alberto Arias Quiceno - John Jairo Estrada Alvarez"
-date: "2026-04-29"
+author:  "Carlos Andrés Escobar Guerra - Juan Alberto Arias Quiceno - John Jairo Estrada Alvarez"
+date: "2026-04-30"
 site: bookdown::bookdown_site
-output:
-  bookdown::gitbook:
-    css: style.css
 documentclass: book
-bibliography: [book.bib, packages.bib, mi_biblio.bib, mibib.bib]
-#bibliography: book.bib
-csl: apa.csl
+bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 cover-image: images/portada.jpg
-description: "Este texto se realizó usando bookdown package para escribir libros digitales."
-url: "https://jestrada2020.github.io/MatematicaUno/"
-github-repo: "jestrada2020/MatematicaUno"
-
-# title: "Curso básico de Matemáticas Uno"
-# author:  "Carlos Andrés Escobar Guerra - Juan Alberto Arias Quiceno - John Jairo Estrada Alvarez"
-# date: "2026-04-29"
-# site: bookdown::bookdown_site
-# output: 
-#   bookdown::gitbook:
-#     # split_by: "section+number"
-#     css: misEstilos.css
-# documentclass: book
-# bibliography: book.bib
-# csl: apa.csl
-# biblio-style: apalike
-# link-citations: yes
-# cover-image: images/portada.jpg
-# description: "Este texto se realizó usando bookdown package para escribir libros digitales."
+description: "Este texto se realizó usando bookdown package para escribir libros."
 ---
-
-
-
-``` r
-bookdown::serve_book()
-```
 
 
 
 
 <!-- https://www.geogebra.org/classic/afwb2p5f -->
 
-# Prerrequisitos {-}
+# Prerrequisitos
 
-El curso de matemáticas uno sólo tiene los siguientes prerrequisitos básicos.
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/index_prerrequisitos.mp3" type="audio/mpeg">
+</audio>
+
+El curso de matemáticas uno sólo tiene los siguientes prerrequisitios
 
 
 
 
 <img src="images/Mate1A0.png" alt="" width="36%" style="display: block; margin: auto;" />
 
-## Link de asistencia a clase
 
-Este link es para realizar la asistencia y contribuir al medio ambiente. Recordar que debes generar tu asistencia entre las 8:00am y 10:00am
-cada día que tenemos clase.
-
- 1. Link [Grupo Martes-Jueves ](https://forms.gle/JB2AhNwFpAS3pzK29)
-
- 2. Link [Grupo Miércoles-Viernes ](https://forms.gle/ii7gwsd1vxohxC4m6)
 
 <!-- <meta name=viewport content="width=device-width,initial-scale=1"> -->
 <!-- <meta charset="utf-8"/> -->
@@ -116,245 +85,74 @@ Tener los implementos básicos para una evaluación:
 
 ## Fechas de evaluación Grupo A
 
+* Evaluación de entrada **Virtual** (10 $\%$) - **Fecha: Lunes $07$ de Febrero**
 
+* Primer parcial **Presencial** (17.5 $\%$) - **Fecha: Viernes $25$ de Febrero**
 
-* Primer parcial **Presencial** (25 $\%$) - **Fecha: Viernes $24$ de Febrero**
+* Segundo Parcial **Virtual** (17.5 $\%$) - **Fecha: Viernes $25$ de Marzo**
 
-* Segundo Parcial **Presencial** (25 $\%$) - **Fecha: Viernes $31$ de Marzo**
+* Tercer Parcial **Presencial** (17.5 $\%$) - **Fecha: Viernes $29$ de Abril**
 
-* Tercer Parcial **Presencial** (25 $\%$) - **Fecha: Viernes $28$ de Abril**
+* Fin de clases 29 de Mayo
 
-* Cuarto Parcial **Presencial** (ó Parcial Final) (25 $\%$) - **Fecha: Viernes $31$ de Mayo**
+* Cuarto Parcial **Virtual** (ó Parcial Final) (17.5 $\%$) - **Fecha: Viernes $03$ de Junio**
 
 
 ## Fechas de evaluación Grupo B
 
+* Evaluación de entrada **Virtual** (10 $\%$) - **Fecha: Lunes $07$ de Febrero**
 
-* Primer parcial **Presencial** (25 $\%$) - **Fecha: Jueves $23$ de Febrero**
+* Primer parcial **Presencial** (17.5 $\%$) - **Fecha: Jueves $24$ de Febrero**
 
-* Segundo Parcial **Presencial** (25 $\%$) - **Fecha: Jueves $30$ de Marzo**
+* Segundo Parcial **Virtual** (17.5 $\%$) - **Fecha: Jueves $24$ de Marzo**
 
-* Tercer Parcial **Presencial** (25 $\%$) - **Fecha: Jueves $27$ de Abril**
+* Tercer Parcial **Presencial** (17.5 $\%$) - **Fecha: Jueves $28$ de Abril**
 
-* Cuarto Parcial **Presencial** (ó Parcial Final) (25 $\%$) - **Fecha: Jueves $30$ de Mayo**
+* Fin de clases 29 de Mayo
 
-
-<!-- ### Talleres evaluativos -->
-
-<!-- * Primer Taller (5 $\%$) - **Fecha: Viernes $18$ de Febrero** -->
-
-<!-- * Segundo Taller (5 $\%$) - **Fecha: Viernes $18$ de Marzo** -->
-
-<!-- * Tercer Taller (5 $\%$) - **Fecha: Viernes $22$ de Abril** -->
-
-<!-- * Cuarto Taller (5 $\%$) - **Fecha: Viernes $28$ de Mayo** -->
+* Cuarto Parcial **Virtual** (ó Parcial Final) (17.5 $\%$) - **Fecha: Jueves $02$ de Junio**
 
 
+### Talleres evaluativos
 
+* Primer Taller (5 $\%$) - **Fecha: Viernes $18$ de Febrero**
 
+* Segundo Taller (5 $\%$) - **Fecha: Viernes $18$ de Marzo**
 
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
-<!-- library(calendR) -->
-<!-- # calendR() -->
-<!-- # calendR(year = 2020, month =8) -->
-<!-- calendR(year = 2023, month = 02,        # Año y mes -->
-<!--         start = "M",                   # Empezar la semana en lunes -->
-<!--         text = c("1PGpB","1PGpA"), -->
-<!--         text.pos = c(23,24),       # Días en los que poner los textos -->
-<!--         text.size = 3.5,               # Tamaño de fuente de los textos -->
-<!--         text.col = 2, -->
-<!--         special.days =  c(23,24), -->
-<!--         special.col = rgb(0, 0, 1,  alpha = 0.25),) -->
-<!-- ``` -->
+* Tercer Taller (5 $\%$) - **Fecha: Viernes $22$ de Abril**
 
-
-
-
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
-<!-- library(calendR) -->
-<!-- # calendR() -->
-<!-- # calendR(year = 2020, month =8) -->
-<!-- calendR(year = 2023, month = 03,        # Año y mes -->
-<!--         start = "M",                   # Empezar la semana en lunes -->
-<!--         text = c("2PGpB","2PGpA"), -->
-<!--         text.pos = c(30,31),       # Días en los que poner los textos -->
-<!--         text.size = 3.5,               # Tamaño de fuente de los textos -->
-<!--         text.col = 2, -->
-<!--         special.days =  c(30,31), -->
-<!--         special.col = rgb(0, 0, 1,  alpha = 0.25),) -->
-<!-- ``` -->
-
-
-
-
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
-<!-- library(calendR) -->
-<!-- # calendR() -->
-<!-- # calendR(year = 2020, month =8) -->
-<!-- calendR(year = 2023, month = 04,        # Año y mes -->
-<!--         start = "M",                   # Empezar la semana en lunes -->
-<!--         text = c("3PGpB","3PGpA"), -->
-<!--         text.pos = c(27,28),       # Días en los que poner los textos -->
-<!--         text.size = 3.5,               # Tamaño de fuente de los textos -->
-<!--         text.col = 2, -->
-<!--         special.days =  c(27,28), -->
-<!--         special.col = rgb(0, 0, 1,  alpha = 0.25),) -->
-<!-- ``` -->
-
-
-
-
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
-<!-- library(calendR) -->
-<!-- # calendR() -->
-<!-- # calendR(year = 2020, month =8) -->
-<!-- calendR(year = 2023, month = 05,        # Año y mes -->
-<!--         start = "M",                   # Empezar la semana en lunes -->
-<!--         text = c("4PGpB","4PGpA"), -->
-<!--         text.pos = c(30,31),       # Días en los que poner los textos -->
-<!--         text.size = 3.5,               # Tamaño de fuente de los textos -->
-<!--         text.col = 2, -->
-<!--         special.days =  c(30,31), -->
-<!--         special.col = rgb(0, 0, 1,  alpha = 0.25),) -->
-<!-- ``` -->
+* Cuarto Taller (5 $\%$) - **Fecha: Viernes $28$ de Mayo**
 
 
 
 
 
-<!-- ```{r echo=FALSE, message=FALSE, warning=FALSE} -->
-<!-- library(calendR) -->
-<!-- # calendR() -->
-<!-- # calendR(year = 2020, month =8) -->
-<!-- calendR(year = 2023, month = 06,        # Año y mes -->
-<!--         start = "M",                   # Empezar la semana en lunes -->
-<!--         text = c("4PGpB","4PGpA"), -->
-<!--         text.pos = c(8,9),       # Días en los que poner los textos -->
-<!--         text.size = 3.5,               # Tamaño de fuente de los textos -->
-<!--         text.col = 2, -->
-<!--         special.days =  c(8,9), -->
-<!--         special.col = rgb(0, 0, 1,  alpha = 0.25),) -->
-<!-- ``` -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Video motivacional
 
-```{=html}
-<table style="width:100%; border-collapse:separate; border-spacing:0.8rem; margin-bottom:1rem;">
-  <tr>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Todos tenemos un matemático interno</div>
-      <a href="https://www.youtube.com/watch?v=BbA5dpS4CcI" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/BbA5dpS4CcI/hqdefault.jpg" alt="Todos tenemos un matemático interno" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Así ve el mundo un matemático</div>
-      <a href="https://www.youtube.com/watch?v=eAcf73ulv9E" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/eAcf73ulv9E/hqdefault.jpg" alt="Así ve el mundo un matemático" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">El tipo que te convencerá de que las matemáticas son la profesión del futuro</div>
-      <a href="https://www.youtube.com/watch?v=NILudp6hti8" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/NILudp6hti8/hqdefault.jpg" alt="El tipo que te convencerá de que las matemáticas son la profesión del futuro" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Neil Degrasse: Los responsables de enseñar ciencia...</div>
-      <a href="https://www.youtube.com/watch?v=CVe8narE2PI" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/CVe8narE2PI/hqdefault.jpg" alt="Neil Degrasse: Los responsables de enseñar ciencia a los niños no tienen ni idea de lo que es" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Cuando ya no esté: Neil Degrasse</div>
-      <a href="https://www.youtube.com/watch?v=MmHsKnjgGC4" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/MmHsKnjgGC4/hqdefault.jpg" alt="Cuando ya no esté: Neil Degrasse" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Jack Andraka - Ingredientes clave para innovar</div>
-      <a href="https://www.youtube.com/watch?v=lFgQszLE6vM" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/lFgQszLE6vM/hqdefault.jpg" alt="Jack Andraka - Ingredientes clave para innovar" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Dan Kaminski: En internet hay siete llaves de seguridad...</div>
-      <a href="https://www.youtube.com/watch?v=B-icPvF3RG8" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/B-icPvF3RG8/hqdefault.jpg" alt="Dan Kaminski: En internet hay siete llaves de seguridad y yo tengo una de ellas" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Cómo se Inventaron los Números Imaginarios</div>
-      <a href="https://www.youtube.com/watch?v=VN7nipynE0c" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/VN7nipynE0c/hqdefault.jpg" alt="Cómo se Inventaron los Números Imaginarios" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="width:50%; vertical-align:top; padding:0;">
-      <div style="max-width:560px; margin:0 auto;">
-        <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Técnica de Po Shen Loh</div>
-        <a href="https://www.youtube.com/watch?v=GFO6FCbSCyo" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-          <img src="https://img.youtube.com/vi/GFO6FCbSCyo/hqdefault.jpg" alt="Técnica de Po Shen Loh" style="width:100%; height:auto; display:block;">
-          <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-            <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-              <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-```
 
+<table style="width:100%; border-collapse:separate; border-spacing:0.5rem; margin-bottom:1.5rem;"><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Todos tenemos un matemático interno</div><a href="https://www.youtube.com/watch?v=BbA5dpS4CcI" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/BbA5dpS4CcI/hqdefault.jpg" alt="Todos tenemos un matemático interno" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Así ve el mundo un matemático</div><a href="https://www.youtube.com/watch?v=eAcf73ulv9E" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/eAcf73ulv9E/hqdefault.jpg" alt="Así ve el mundo un matemático" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Las matemáticas son la profesión del futuro</div><a href="https://www.youtube.com/watch?v=NILudp6hti8" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/NILudp6hti8/hqdefault.jpg" alt="Las matemáticas son la profesión del futuro" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td></tr><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Neil Degrasse: Enseñar ciencia a los niños</div><a href="https://www.youtube.com/watch?v=CVe8narE2PI" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/CVe8narE2PI/hqdefault.jpg" alt="Neil Degrasse: Enseñar ciencia a los niños" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Cuando ya no esté: Neil Degrasse</div><a href="https://www.youtube.com/watch?v=MmHsKnjgGC4" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/MmHsKnjgGC4/hqdefault.jpg" alt="Cuando ya no esté: Neil Degrasse" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Jack Andraka: Ingredientes para innovar</div><a href="https://www.youtube.com/watch?v=lFgQszLE6vM" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/lFgQszLE6vM/hqdefault.jpg" alt="Jack Andraka: Ingredientes para innovar" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td></tr><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Dan Kaminski: Siete llaves de seguridad</div><a href="https://www.youtube.com/watch?v=B-icPvF3RG8" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/B-icPvF3RG8/hqdefault.jpg" alt="Dan Kaminski: Siete llaves de seguridad" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem; color:#888;">Próximamente</div><div style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#f0f0f0;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#aaa; font-size:3rem;">⏳</div></div></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem; color:#888;">Próximamente</div><div style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#f0f0f0;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#aaa; font-size:3rem;">⏳</div></div></td></tr><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem; color:#888;">Próximamente</div><div style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#f0f0f0;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#aaa; font-size:3rem;">⏳</div></div></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem; color:#888;">Próximamente</div><div style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#f0f0f0;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#aaa; font-size:3rem;">⏳</div></div></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem; color:#888;">Próximamente</div><div style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#f0f0f0;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#aaa; font-size:3rem;">⏳</div></div></td></tr></table>
 
 ## Página para reforzar conceptos básicos
 
@@ -368,6 +166,11 @@ El siguiente link es una página para ver las matemáticas del planeta tierra, c
 
 
 # Desarrollo temático
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/index_desarrollo-tematico.mp3" type="audio/mpeg">
+</audio>
 
 ## Objetivo general
 
@@ -470,82 +273,7 @@ Resolver problemas matemáticos para desarrollar el pensamiento lógico y deduct
 
 ## Video manejo de la Casio $f_{x}350MS$
 
-En esta sección se presentan videos con pautas de cómo usar la calculadora Casio (incluyendo versiones como $f_{x}82MS$) y videos de repaso sobre métodos algebraicos.
 
-```{=html}
-<table style="width:100%; border-collapse:separate; border-spacing:0.8rem; margin-bottom:1rem;">
-  <tr>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">USAO GENERAL</div>
-      <a href="https://www.youtube.com/watch?v=lZ54IR5pSyc" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/lZ54IR5pSyc/hqdefault.jpg" alt="USAO GENERAL" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Sistema 2 por 2 usando Regla de Cramer</div>
-      <a href="https://www.youtube.com/watch?v=qXm2DK9XTRg" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/qXm2DK9XTRg/hqdefault.jpg" alt="Sistema 2 por 2 usando Regla de Cramer" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Ecuación cuadrática</div>
-      <a href="https://www.youtube.com/watch?v=4M_L66oECa0" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/4M_L66oECa0/hqdefault.jpg" alt="Ecuación cuadrática" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-    <td style="width:50%; vertical-align:top; padding:0;">
-      <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Regla de Sarrus - Matriz 3 por 3</div>
-      <a href="https://www.youtube.com/watch?v=vBNBkth3YE0" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-        <img src="https://img.youtube.com/vi/vBNBkth3YE0/hqdefault.jpg" alt="Regla de Sarrus - Matriz 3 por 3" style="width:100%; height:auto; display:block;">
-        <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-          <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-            <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-          </div>
-        </div>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="width:50%; vertical-align:top; padding:0;">
-      <div style="max-width:560px; margin:0 auto;">
-        <div style="text-align:center; font-weight:bold; color:#1a5276; font-size:0.95rem; margin-bottom:0.5rem;">Sistema 3 por 3</div>
-        <a href="https://www.youtube.com/watch?v=EpSmyXrbwWc" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; border-radius:0.75rem; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15); text-decoration:none;">
-          <img src="https://img.youtube.com/vi/EpSmyXrbwWc/hqdefault.jpg" alt="Sistema 3 por 3" style="width:100%; height:auto; display:block;">
-          <div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; pointer-events:none;">
-            <div style="width:60px; height:60px; background:rgba(255,0,0,0.92); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);">
-              <div style="width:0; height:0; border-top:12px solid transparent; border-bottom:12px solid transparent; border-left:20px solid white; margin-left:4px;"></div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
-```
-
-
-
-
-
-
-
-
+<table style="width:100%; border-collapse:separate; border-spacing:0.5rem; margin-bottom:1.5rem;"><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Calculadora Casio fx-350MS</div><a href="https://www.youtube.com/watch?v=iwKqLbwDjgY" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/iwKqLbwDjgY/hqdefault.jpg" alt="Calculadora Casio fx-350MS" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Regla de Cramer 2 por 2</div><a href="https://www.youtube.com/watch?v=hMEyOtdJdXo" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/hMEyOtdJdXo/hqdefault.jpg" alt="Regla de Cramer 2 por 2" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Regla de Cramer 3 por 3</div><a href="https://www.youtube.com/watch?v=SpRbyapGhtk" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/SpRbyapGhtk/hqdefault.jpg" alt="Regla de Cramer 3 por 3" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td></tr><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Regla de Sarrus 3 por 3</div><a href="https://www.youtube.com/watch?v=bdLfefNCt9c" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/bdLfefNCt9c/hqdefault.jpg" alt="Regla de Sarrus 3 por 3" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Ecuación cuadrática</div><a href="https://www.youtube.com/watch?v=DZa7OflVcB4" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/DZa7OflVcB4/hqdefault.jpg" alt="Ecuación cuadrática" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">USAO GENERAL</div><a href="https://www.youtube.com/watch?v=lZ54IR5pSyc" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/lZ54IR5pSyc/hqdefault.jpg" alt="USAO GENERAL" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td></tr><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Sistema 2 por 2 usando Regla de Cramer</div><a href="https://www.youtube.com/watch?v=qXm2DK9XTRg" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/qXm2DK9XTRg/hqdefault.jpg" alt="Sistema 2 por 2 usando Regla de Cramer" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Ecuación cuadrática</div><a href="https://www.youtube.com/watch?v=4M_L66oECa0" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/4M_L66oECa0/hqdefault.jpg" alt="Ecuación cuadrática" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Regla de Sarrus - Matriz 3 por 3</div><a href="https://www.youtube.com/watch?v=vBNBkth3YE0" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/vBNBkth3YE0/hqdefault.jpg" alt="Regla de Sarrus - Matriz 3 por 3" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td></tr><tr><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem;">Sistema 3 por 3</div><a href="https://www.youtube.com/watch?v=EpSmyXrbwWc" target="_blank" rel="noopener noreferrer" style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#000; cursor:pointer; text-decoration:none;"><img src="https://img.youtube.com/vi/EpSmyXrbwWc/hqdefault.jpg" alt="Sistema 3 por 3" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; background:rgba(0,0,0,0.25);"><div style="width:68px; height:68px; border-radius:50%; background:rgba(255,0,0,0.92); display:flex; align-items:center; justify-content:center; box-shadow:0 4px 24px rgba(0,0,0,0.6);"><div style="width:0; height:0; border-top:16px solid transparent; border-bottom:16px solid transparent; border-left:28px solid white; margin-left:6px;"></div></div><div style="background:rgba(0,0,0,0.65); color:white; font-size:0.82rem; font-weight:bold; padding:5px 14px; border-radius:999px;">▶ Ver en YouTube</div></div></a></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem; color:#888;">Próximamente</div><div style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#f0f0f0;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#aaa; font-size:3rem;">⏳</div></div></td><td style="width:33%; text-align:center; vertical-align:top; padding:0.5rem;"><div style="font-weight:bold; margin-bottom:0.5rem; font-size:0.9rem; color:#888;">Próximamente</div><div style="display:block; position:relative; padding-top:56.25%; width:100%; border-radius:0.75rem; overflow:hidden; background:#f0f0f0;"><div style="position:absolute; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#aaa; font-size:3rem;">⏳</div></div></td></tr></table>
 
 

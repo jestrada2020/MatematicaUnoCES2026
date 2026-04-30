@@ -2,11 +2,22 @@
 
 
 
+**Podcast**
+<audio controls>
+  <source src="podcasts/cap01_intro.mp3" type="audio/mpeg">
+</audio>
+
 ## Teoría de conjuntos
 
 ::: {.definition #unnamed-chunk-1}
 Un **conjunto** es una colección bien definida de objetos, llamados sus elementos. Los conjuntos se simbolizan con letras mayúsculas $A$, $B$, $...$ Los objetos que componen el conjunto se denominan elementos y se denotan con letras minúsculas $a, b, ...$  [Tomado de [@zill2012algebra] pág $21$]
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition1.mp3" type="audio/mpeg">
+</audio>
+
 
 
 
@@ -16,6 +27,12 @@ Para definir un **conjunto por extensión**, se enumeran todos sus elementos sep
 Para escribir un **conjunto por comprensión** se elige un elemento arbitrario $x$ y se señala que cumple la propiedad $P(x)$. Finalmente, se encierra toda la expresión entre llaves. [Tomado de [@zill2012algebra] pág $22$]
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition2.mp3" type="audio/mpeg">
+</audio>
+
+
 $$
 A=\{ x | x \ \ \text{cumple la propiedad} \ \ P(x)   \}
 $$
@@ -23,6 +40,12 @@ $$
 ::: {.definition #unnamed-chunk-3}
 Diremos que dos conjutnos $A$ y $B$ son iguales si tienen los mismos elementos. Para indicar que $A$ y $B$ son iguales se escribe:[Tomado de [@zill2012algebra] pág $22$]
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition3.mp3" type="audio/mpeg">
+</audio>
+
 
 $$
 A=B
@@ -37,11 +60,23 @@ Un conjunto que no tiene un número finito de elemenos se llaman **conjunto infi
 
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_remark4.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ::: {.definition #unnamed-chunk-5}
 El número de elementos de un conjunto finito es lo que se llama la **cardinalidad** de dicho conjunto. La cardinalidad de un conjunto finito $A$ se denota por: [Tomado de [@zill2012algebra] pág $24$]
 
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition5.mp3" type="audio/mpeg">
+</audio>
+
 
 
 $$
@@ -52,11 +87,23 @@ $$
 Dos conjuntos finitos $X$ y $Y$ se dicen ser **equipotentes** si tienen exactamente el mismo número de elementos. [Tomado de [@zill2012algebra] pág $24$]
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition6.mp3" type="audio/mpeg">
+</audio>
+
+
 
 
 ::: {.definition #unnamed-chunk-7}
 Un conjunto se dice **vacío** si no posee elementos. El conjunto vacío se denota como:
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition7.mp3" type="audio/mpeg">
+</audio>
+
 
 $$
 \{ \} \ \ \ \text{ó}  \ \ \ \Phi
@@ -66,6 +113,12 @@ $$
 El conjunto **universal** se define como el conjunto que posee todos los elementos de todos los conjunots, y se denota como:[Tomado de [@zill2012algebra] pág $25$]
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition8.mp3" type="audio/mpeg">
+</audio>
+
+
 $$
 \text{Conjunto universal:} \ \ \ U
 $$
@@ -73,6 +126,12 @@ $$
 ::: {.definition #unnamed-chunk-9}
 Si cada elemento de un conjunto $A$ es también elemento de un conjunto $B$, entonces se dice que $A$ es un subconjunto de $B$. Se dice también que $A$ está contenido en $B$ o que $B$ contiene a $A$. La relación de subconjunto se denota como: [Tomado de [@zill2012algebra] pág $25$]
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition9.mp3" type="audio/mpeg">
+</audio>
+
 
 $$
 A \subset B  \ \ \ \text{ó}  \ \ \ B \supset A
@@ -109,6 +168,12 @@ $$
 La unión de dos conjuntos $A$ y $B$ consta de todos los elementos que pertenecen a $A$ o a $B$. La unión de $A$ y $B$ se denota por $A \cup B$. [Tomado de [@zill2012algebra] pág $31$]
 
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition10.mp3" type="audio/mpeg">
+</audio>
+
 
 
 $$
@@ -187,6 +252,12 @@ $$
 La intersección de dos conjuntos $A$ y $B$ consta de todos los elementos que pertenecen a $A$ y a $B$. La intersección de $A$ y $B$ se denota por $A \cap B$. [Tomado de [@zill2012algebra] pág $30$]
 
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition11.mp3" type="audio/mpeg">
+</audio>
+
 
 
 $$
@@ -289,6 +360,12 @@ La diferencia de dos conjuntos $A$ y $B$ consta de todos los elementos que perte
 
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition12.mp3" type="audio/mpeg">
+</audio>
+
+
 
 $$
 A - B = \{ x | x \in A \ \text{y} \ x \notin B\}
@@ -361,6 +438,12 @@ El complemento de un conjunto $A$ consta de todos los elementos del universo $U$
 
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition13.mp3" type="audio/mpeg">
+</audio>
+
+
 
 $$
 A'=A^{c} = \{ x | x \notin A \}
@@ -410,6 +493,12 @@ $$
 La diferencia simétrica entre dos conjuntos $A$ y $B$ se define como el conjunto de todos los elementos del universo $U$, que pertenecen a $(A-B) \cup (B-A)$.
 
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition14.mp3" type="audio/mpeg">
+</audio>
+
 
 
 
@@ -826,6 +915,12 @@ A partir de la gráfica, obtener la solución a los enunciados de conjuntos:
 El conjunto de los números naturales consta de:
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition15.mp3" type="audio/mpeg">
+</audio>
+
+
 
 $$
 N=\{ 1,2,3,4,...\}
@@ -836,6 +931,12 @@ $$
 El conjunto de los números enteros consta de:
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition16.mp3" type="audio/mpeg">
+</audio>
+
+
 
 $$
 Z=\{...,-3,-2,-1,0,1,2,3,4,...\}
@@ -845,6 +946,12 @@ $$
 El conjunto de los números racionales consta de todos los números que son cociente de dos enteros, siempre que el denominador sea diferente de cero. Es decir:
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition17.mp3" type="audio/mpeg">
+</audio>
+
+
 
 $$
 Q=\{ \dfrac{p}{q} | p \ \text{y} \ q \ \ \text{son números enteros,} \ \ q \ \neq \ 0\}
@@ -853,6 +960,12 @@ $$
 El conjunto de los números irracionales consta de todos los números que no son el cociente de dos enteros, siempre que el denominador sea diferente de cero. Es decir:
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition18.mp3" type="audio/mpeg">
+</audio>
+
+
 
 $$
 Q^{*}=\{x |   \ x \neq \ \dfrac{p}{q}, \ \ q \ \neq \ 0\   \}
@@ -860,6 +973,12 @@ $$
 ::: {.definition #unnamed-chunk-19}
 El conjunto de los números reales consta de la unión entre el conjunto de los racionales y los irracionales. Es decir:
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition19.mp3" type="audio/mpeg">
+</audio>
+
 
 
 $$
@@ -1098,6 +1217,12 @@ $$
 ::: {.definition #unnamed-chunk-21}
 Se dice que el número real $a$ es menor que $b$, lo que se escribe $a<b$, si y sólo si la diferencia $b-a$ es positiva. En símbolos: [Tomado de [@zill2012algebra] pág $58$]
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition20.mp3" type="audio/mpeg">
+</audio>
+
 
 
 $$
@@ -2125,6 +2250,12 @@ $$
 Sea $x$ un número real, se define el valor absoluto de $x$ como:
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition21.mp3" type="audio/mpeg">
+</audio>
+
+
 
 
 \[
@@ -2184,6 +2315,12 @@ Sean $x$ y $y$ números reales. Entonces
 
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_theorem22.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ### Ejemplo 2
 
@@ -2221,6 +2358,12 @@ $|x| \leq a$ es equivalente a:
 
 (2) $x \geq -a$  y  $x \leq a$
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_theorem23.mp3" type="audio/mpeg">
+</audio>
+
 
 
 ### Ejemplo 3
@@ -2303,6 +2446,12 @@ Sea $a \in R^{+}$ y $|x| \geq a$. Entonces
 $|x| \geq a$ es equivalente a $x \leq -a \ \ \ \text{ó} \ \ \ x \geq a$
 :::
 
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_theorem24.mp3" type="audio/mpeg">
+</audio>
+
+
 ### Ejemplo 5
 
 Obtener el conjunto solución para la siguiente desigualdad usando el teorema apropiado
@@ -2367,6 +2516,12 @@ Sean $a$ y $b$ dos números en la recta de los números reales, la distancia de 
 
 $$d(a,b)=|b-a|$$
 :::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/01-intro_definition25.mp3" type="audio/mpeg">
+</audio>
+
 
 
 ### Ejemplo 7

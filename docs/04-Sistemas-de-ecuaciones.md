@@ -1,16 +1,40 @@
 # Sistemas de ecuaciones {#Sistemas-de-ecuaciones}
 
+**Podcast**
+<audio controls>
+  <source src="podcasts/cap04_sistemas.mp3" type="audio/mpeg">
+</audio>
 
 ## Teorema de los sistema lineales
 
+::: {.theorem #teorema-sistemas-lineales}
 Todo sistema de ecuaciones lineales sólo tiene una de las siguientes
 afirmaciones:
 
-(a) El sistema sólo tiene única solución
+(a) El sistema tiene solución única.
 
 (b) El sistema tiene infinitas soluciones.
 
 (c) El sistema no tiene solución.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/04-Sistemas-de-ecuaciones_teorema-sistemas-lineales.mp3" type="audio/mpeg">
+</audio>
+
+
+## Definición de sistema de ecuaciones
+
+::: {.definition #def-sistema-ecuaciones}
+Un **sistema de ecuaciones** es un conjunto de dos o más ecuaciones con varias incógnitas, que se deben satisfacer simultáneamente. Una **solución del sistema** es un conjunto de valores de las incógnitas que verifica todas las ecuaciones al mismo tiempo.
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/04-Sistemas-de-ecuaciones_def-sistema-ecuaciones.mp3" type="audio/mpeg">
+</audio>
+
 
 ## Sistemas $2$ por $2$
 
@@ -259,9 +283,8 @@ c & d
 \end{vmatrix}=(2)(3)-(7)(5)=6-35=-29
 \end{equation}
 
-<span style="color:red">**Teorema de Cramer $2\times 2$**</span>
-
-Dado un sistema de ecuaciones lineales $2\times 2$
+::: {.theorem #teorema-cramer-2x2}
+**Teorema de Cramer $2\times 2$.** Dado un sistema de ecuaciones lineales $2\times 2$
 
 $$
 \left.
@@ -270,6 +293,13 @@ $$
 \right\} \text{Sistema } 2\times 2 \ \ ordenado
 $$
 El cual se puede expresar de forma equivalente en términos de matrices como:
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/04-Sistemas-de-ecuaciones_teorema-cramer-2x2.mp3" type="audio/mpeg">
+</audio>
+
 
 $$
 \left.
@@ -412,6 +442,7 @@ $$
 (3) \ \ a_{31}x + a_{32}y  + a_{33}z= b_3 \atop
 \right\} \text{Sistema } 3\times 3 \ \ ordenado
 $$
+```
 
 
 
@@ -962,7 +993,8 @@ d & e & f
 \end{equation}
 
 
-<span style="color:red">**Teorema de Cramer $3\times 3$**</span>
+::: {.theorem #teorema-cramer-3x3}
+**Teorema de Cramer $3\times 3$.**
 
 
 
@@ -1142,7 +1174,15 @@ Por lo tanto la solución del sistema $3\times 3$ es: $(x=-1,y=1,z=8)$
 Recordemos que una ecuación de la forma $ax+by+c=0$ se dice ecuación lineal con dos variables $x$ y $y$.
 Una ecuación que no tenga esta forma se dice no lineal.
 
-**Definición de Sistema No Lineal**: Es un conjunto (ó sistema) de ecuaciones, el cual se dice no lineal (NL), si por lo menos una de sus ecuaciones es no lineal. 
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/04-Sistemas-de-ecuaciones_teorema-cramer-3x3.mp3" type="audio/mpeg">
+</audio>
+
+Un **sistema no lineal** es un conjunto de ecuaciones en el cual por lo menos una de sus ecuaciones es no lineal.
+``` 
 
 ### Ejemplos de sistemas no lineales
 

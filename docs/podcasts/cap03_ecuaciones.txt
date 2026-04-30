@@ -1,0 +1,1 @@
+Este capítulo está dedicado a la solución de ecuaciones. Comenzaremos con las propiedades fundamentales de las igualdades, la ley distributiva y la factorización. Luego estudiaremos productos notables, operaciones con polinomios, despeje de variables y métodos para resolver ecuaciones lineales y cuadráticas.

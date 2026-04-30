@@ -1,0 +1,1 @@
+En este capítulo abordamos la potenciación y los radicales. Definiremos formalmente qué es una potencia y un radical, y estudiaremos sus propiedades más importantes. También practicaremos la ley distributiva y simplificación de expresiones algebraicas que combinan potencias y raíces.

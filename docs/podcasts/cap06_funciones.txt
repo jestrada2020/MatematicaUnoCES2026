@@ -1,0 +1,1 @@
+En este capítulo exploramos el concepto de función, dominio y rango, y el criterio de la recta vertical. Estudiaremos las funciones exponenciales y logarítmicas, sus gráficas, propiedades y leyes. También resolveremos ecuaciones y sistemas exponenciales y logarítmicos.

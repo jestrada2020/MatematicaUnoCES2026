@@ -1,0 +1,1 @@
+En este capítulo estudiamos los sistemas de ecuaciones. Aprenderemos el teorema de los sistemas lineales, las técnicas de sustitución e igualación, y el teorema de Cramer para sistemas dos por dos y tres por tres. También veremos sistemas no lineales y su interpretación gráfica.
