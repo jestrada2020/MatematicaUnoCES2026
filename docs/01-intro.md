@@ -9,7 +9,7 @@
 
 ## Teoría de conjuntos
 
-::: {.definition #unnamed-chunk-1}
+::: {.definition #intro-1}
 Un **conjunto** es una colección bien definida de objetos, llamados sus elementos. Los conjuntos se simbolizan con letras mayúsculas $A$, $B$, $...$ Los objetos que componen el conjunto se denominan elementos y se denotan con letras minúsculas $a, b, ...$  [Tomado de [@zill2012algebra] pág $21$]
 :::
 
@@ -21,7 +21,7 @@ Un **conjunto** es una colección bien definida de objetos, llamados sus element
 
 
 
-::: {.definition #unnamed-chunk-2}
+::: {.definition #intro-2}
 Para definir un **conjunto por extensión**, se enumeran todos sus elementos separándolos por comas y luego se encierran entre llaves. 
 
 Para escribir un **conjunto por comprensión** se elige un elemento arbitrario $x$ y se señala que cumple la propiedad $P(x)$. Finalmente, se encierra toda la expresión entre llaves. [Tomado de [@zill2012algebra] pág $22$]
@@ -37,7 +37,7 @@ $$
 A=\{ x | x \ \ \text{cumple la propiedad} \ \ P(x)   \}
 $$
 
-::: {.definition #unnamed-chunk-3}
+::: {.definition #intro-3}
 Diremos que dos conjutnos $A$ y $B$ son iguales si tienen los mismos elementos. Para indicar que $A$ y $B$ son iguales se escribe:[Tomado de [@zill2012algebra] pág $22$]
 :::
 
@@ -67,7 +67,7 @@ Un conjunto que no tiene un número finito de elemenos se llaman **conjunto infi
 
 
 
-::: {.definition #unnamed-chunk-5}
+::: {.definition #intro-5}
 El número de elementos de un conjunto finito es lo que se llama la **cardinalidad** de dicho conjunto. La cardinalidad de un conjunto finito $A$ se denota por: [Tomado de [@zill2012algebra] pág $24$]
 
 :::
@@ -83,7 +83,7 @@ $$
 Card(A) \ \ \ \text{ó}  \ \ \ |A|
 $$
 
-::: {.definition #unnamed-chunk-6}
+::: {.definition #intro-6}
 Dos conjuntos finitos $X$ y $Y$ se dicen ser **equipotentes** si tienen exactamente el mismo número de elementos. [Tomado de [@zill2012algebra] pág $24$]
 :::
 
@@ -95,7 +95,7 @@ Dos conjuntos finitos $X$ y $Y$ se dicen ser **equipotentes** si tienen exactame
 
 
 
-::: {.definition #unnamed-chunk-7}
+::: {.definition #intro-7}
 Un conjunto se dice **vacío** si no posee elementos. El conjunto vacío se denota como:
 :::
 
@@ -109,7 +109,7 @@ $$
 \{ \} \ \ \ \text{ó}  \ \ \ \Phi
 $$
 
-::: {.definition #unnamed-chunk-8}
+::: {.definition #intro-8}
 El conjunto **universal** se define como el conjunto que posee todos los elementos de todos los conjunots, y se denota como:[Tomado de [@zill2012algebra] pág $25$]
 :::
 
@@ -123,7 +123,7 @@ $$
 \text{Conjunto universal:} \ \ \ U
 $$
 
-::: {.definition #unnamed-chunk-9}
+::: {.definition #intro-9}
 Si cada elemento de un conjunto $A$ es también elemento de un conjunto $B$, entonces se dice que $A$ es un subconjunto de $B$. Se dice también que $A$ está contenido en $B$ o que $B$ contiene a $A$. La relación de subconjunto se denota como: [Tomado de [@zill2012algebra] pág $25$]
 :::
 
@@ -164,7 +164,7 @@ $$
 
 
 
-::: {.definition #unnamed-chunk-10}
+::: {.definition #intro-10}
 La unión de dos conjuntos $A$ y $B$ consta de todos los elementos que pertenecen a $A$ o a $B$. La unión de $A$ y $B$ se denota por $A \cup B$. [Tomado de [@zill2012algebra] pág $31$]
 
 :::
@@ -248,7 +248,7 @@ $$
 
 
 
-::: {.definition #unnamed-chunk-11}
+::: {.definition #intro-11}
 La intersección de dos conjuntos $A$ y $B$ consta de todos los elementos que pertenecen a $A$ y a $B$. La intersección de $A$ y $B$ se denota por $A \cap B$. [Tomado de [@zill2012algebra] pág $30$]
 
 :::
@@ -355,7 +355,7 @@ $$
 
 ## Diferencia entre dos conjuntos
 
-::: {.definition #unnamed-chunk-12}
+::: {.definition #intro-12}
 La diferencia de dos conjuntos $A$ y $B$ consta de todos los elementos que pertenecen a $A$ y no pertenecen a $B$. La diferencia de $A$ y $B$ se denota por $A - B$. [Tomado de [@zill2012algebra] pág $34$]
 
 :::
@@ -433,7 +433,7 @@ $$
 
 ## Complemento de un conjunto
 
-::: {.definition #unnamed-chunk-13}
+::: {.definition #intro-13}
 El complemento de un conjunto $A$ consta de todos los elementos del universo $U$, y que no pertenecen a $A$. El complemento de $A$ se denota por $A^{c}$. [Tomado de [@zill2012algebra] pág $34$]
 
 :::
@@ -489,7 +489,7 @@ $$
 
 ## Diferencia simétrica de dos conjuntos
 
-::: {.definition #unnamed-chunk-14}
+::: {.definition #intro-14}
 La diferencia simétrica entre dos conjuntos $A$ y $B$ se define como el conjunto de todos los elementos del universo $U$, que pertenecen a $(A-B) \cup (B-A)$.
 
 :::
@@ -911,7 +911,7 @@ A partir de la gráfica, obtener la solución a los enunciados de conjuntos:
 
 
 
-::: {.definition #unnamed-chunk-15}
+::: {.definition #intro-15}
 El conjunto de los números naturales consta de:
 :::
 
@@ -927,7 +927,7 @@ N=\{ 1,2,3,4,...\}
 $$
 
 
-::: {.definition #unnamed-chunk-16}
+::: {.definition #intro-16}
 El conjunto de los números enteros consta de:
 :::
 
@@ -942,7 +942,7 @@ $$
 Z=\{...,-3,-2,-1,0,1,2,3,4,...\}
 $$
 
-::: {.definition #unnamed-chunk-17}
+::: {.definition #intro-17}
 El conjunto de los números racionales consta de todos los números que son cociente de dos enteros, siempre que el denominador sea diferente de cero. Es decir:
 :::
 
@@ -956,7 +956,7 @@ El conjunto de los números racionales consta de todos los números que son coci
 $$
 Q=\{ \dfrac{p}{q} | p \ \text{y} \ q \ \ \text{son números enteros,} \ \ q \ \neq \ 0\}
 $$
-::: {.definition #unnamed-chunk-18}
+::: {.definition #intro-18}
 El conjunto de los números irracionales consta de todos los números que no son el cociente de dos enteros, siempre que el denominador sea diferente de cero. Es decir:
 :::
 
@@ -970,7 +970,7 @@ El conjunto de los números irracionales consta de todos los números que no son
 $$
 Q^{*}=\{x |   \ x \neq \ \dfrac{p}{q}, \ \ q \ \neq \ 0\   \}
 $$
-::: {.definition #unnamed-chunk-19}
+::: {.definition #intro-19}
 El conjunto de los números reales consta de la unión entre el conjunto de los racionales y los irracionales. Es decir:
 :::
 
@@ -1214,7 +1214,7 @@ $$
 
 
 
-::: {.definition #unnamed-chunk-21}
+::: {.definition #intro-21}
 Se dice que el número real $a$ es menor que $b$, lo que se escribe $a<b$, si y sólo si la diferencia $b-a$ es positiva. En símbolos: [Tomado de [@zill2012algebra] pág $58$]
 :::
 
@@ -2246,7 +2246,7 @@ $$
 ## Concepto de valor absoluto
 
 
-::: {.definition #unnamed-chunk-24}
+::: {.definition #intro-24}
 Sea $x$ un número real, se define el valor absoluto de $x$ como:
 :::
 
@@ -2298,7 +2298,7 @@ Obtener el valor absoluto indicado
 
 
 
-::: {.theorem #unnamed-chunk-25}
+::: {.theorem #intro-25}
 Sean $x$ y $y$ números reales. Entonces
 
 (1) $|x| \geq 0$
@@ -2511,7 +2511,7 @@ $$
 
 
 
-::: {.definition #unnamed-chunk-26}
+::: {.definition #intro-26}
 Sean $a$ y $b$ dos números en la recta de los números reales, la distancia de $a$ a $b$ está dada por:
 
 $$d(a,b)=|b-a|$$

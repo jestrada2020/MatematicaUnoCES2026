@@ -433,6 +433,7 @@ Author: José María Arias Cabezas
 ## Sistemas $3$ por $3$
 
 
+::: {.definition #def-sistema-3x3}
 Un sistema $3\times 3$ es un conjunto de tres ecuaciones
 con tres variables (ó incógnitas) por conocer en cada una de las ecuaciones del sistema.
 $$
@@ -442,7 +443,7 @@ $$
 (3) \ \ a_{31}x + a_{32}y  + a_{33}z= b_3 \atop
 \right\} \text{Sistema } 3\times 3 \ \ ordenado
 $$
-```
+:::
 
 
 
@@ -1074,6 +1075,12 @@ a_{21} & a_{22} & a_{23}\\
 a_{31} & a_{32} & a_{33} 
 \end{vmatrix}}
 \end{equation}
+:::
+
+**Podcast explicativo**
+<audio controls style="width:100%;max-width:600px;">
+  <source src="podcasts/bloques/04-Sistemas-de-ecuaciones_teorema-cramer-3x3.mp3" type="audio/mpeg">
+</audio>
 
 
 #### Ejemplo5 (Sistena $3\times 3$)
@@ -1174,15 +1181,9 @@ Por lo tanto la solución del sistema $3\times 3$ es: $(x=-1,y=1,z=8)$
 Recordemos que una ecuación de la forma $ax+by+c=0$ se dice ecuación lineal con dos variables $x$ y $y$.
 Una ecuación que no tenga esta forma se dice no lineal.
 
-:::
-
-**Podcast explicativo**
-<audio controls style="width:100%;max-width:600px;">
-  <source src="podcasts/bloques/04-Sistemas-de-ecuaciones_teorema-cramer-3x3.mp3" type="audio/mpeg">
-</audio>
-
+::: {.definition #def-sistema-no-lineal}
 Un **sistema no lineal** es un conjunto de ecuaciones en el cual por lo menos una de sus ecuaciones es no lineal.
-``` 
+:::
 
 ### Ejemplos de sistemas no lineales
 

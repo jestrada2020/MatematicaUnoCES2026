@@ -391,7 +391,7 @@ se dice ecuación exponencial ya que es una ecuación que contiene funciones exp
 
 
 
-::: {.example #unnamed-chunk-1}
+::: {.example #expolog-1}
 Obtener la solución para la ecuación
 
 \[
@@ -433,7 +433,7 @@ Se concluye que la solución para la ecuación es $x=2$.
 <br></br>
 
 
-::: {.example #unnamed-chunk-3}
+::: {.example #expolog-3}
 Obtener la solución para la ecuación
 
 \[
@@ -476,7 +476,7 @@ Se concluye que la solución para la ecuación es $x=3$.
 
 <br></br>
 
-::: {.example #unnamed-chunk-5 name="Crecimiento de la población"}
+::: {.example #expolog-5 name="Crecimiento de la población"}
 Supongamos una población de bacterias en un medio nutritivo homogéno, y que haciendo un muestreo de la población a ciertos intervalos, se determina que esa población se duplica cada hora. Si, en el instante $t$, la cantidad de bacterias es $p(t)$, donde $t$ se mide en horas, y la población inicial es $p(0)=10$, entonces obtener una fórmula para la población de bacterias en cualquier instante de tiempo $t$.
 :::
 
@@ -506,7 +506,7 @@ $$p(t)=2^{t}(10)=10.2^{t} \qquad \text{población en cualquier instánte de tiem
 
 <br></br>
 
-::: {.example #unnamed-chunk-7 name="Vida media del estroncio 90"}
+::: {.example #expolog-7 name="Vida media del estroncio 90"}
 La vida media del estroncio $90$. ${}^{90}Sr$ es de $25$ años. Esto significa que la mitad del cualquier cantidad dada de  ${}^{90}Sr$ se desintregrará en $25$ años. Si una muestra de  ${}^{90}Sr$ tiene una masa de $24 mg$, encuentre una expresión para la masa $m(t)$ que queda después de $t$ años.
 :::
 
@@ -592,7 +592,7 @@ Author: Javier Cayetano Rodríguez
 ## Ecuación logaritmica
 
 
-::: {.example #unnamed-chunk-9}
+::: {.example #expolog-9}
 Resuelva para $x$ la ecuación logarítmica:
 
 \[
@@ -637,7 +637,7 @@ x=2
 
 <br></br>
 
-::: {.example #unnamed-chunk-11}
+::: {.example #expolog-11}
 Resolver para $x$ la ecuación:
 
 \[

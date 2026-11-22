@@ -11,7 +11,7 @@
 
 ## Definición de ecuación
 
-::: {.definition #unnamed-chunk-1}
+::: {.definition #ecuaciones-1}
 Una **ecuación** es una igualdad matemática entre dos expresiones algebraicas, llamadas miembros, en la que aparecen una o más incógnitas. Una **solución** de la ecuación es un valor de la incógnita que hace verdadera la igualdad.
 :::
 
@@ -703,7 +703,7 @@ Author: José María Arias Cabezas
 ## Operaciones con polinomios
 
 
-::: {.definition #unnamed-chunk-2}
+::: {.definition #ecuaciones-2}
 Un **Polinomio** $P(x)$ es una expresión de la forma
 $$
   P(x)=a_nx^n+a_{n-1}x^{n-1}+...+a_{2}x^2+a_{1}x^1+a_{0}
@@ -1268,7 +1268,7 @@ A + E & = B\sqrt[3]{\dfrac{C}{D}} \\
 <p class="caption">(\#fig:CerosDeEcu1)Ceros (ó corte) de una función con el eje $X$ [Imagen tomada de [@swokowski1996algebra] pág $169$]</p>
 </div>
 
-::: {.definition #unnamed-chunk-3}
+::: {.definition #ecuaciones-3}
 Se define $x=r$ como un cero (ó raíz) de una función $f(x)=0$, si y sólo si $f(r)=0$. Además el cero (ó raíz) de una función es la intersección entre el eje $X$ y la gráfica de $f(x)$.
 :::
 

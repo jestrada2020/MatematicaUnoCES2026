@@ -18,7 +18,7 @@
 
 ## Definición de potenciación
 
-::: {.definition #unnamed-chunk-1}
+::: {.definition #def-potenciacion}
 Dados un número real $a$ y un número entero positivo $n$, se define la **potenciación** $a^n$ como el producto de $n$ factores iguales a $a$, es decir:
 $$a^n = \underbrace{a \cdot a \cdot \ldots \cdot a}_{n \text{ veces}}$$
 al número $a$ se le llama **base** y a $n$ se le llama **exponente**.
@@ -46,9 +46,7 @@ Sean $a$ y $b$ números reales y $m,n$ enteros. Entonces se cumplen las siguient
 
 (2) $(a^n)^m=a^{nm}$
 
-(2) $(a^n)^m=a^{nm}$
-
-$(2^1)^{3}=2^{(1)(3)}=2^3$
+Ejemplo:  $(2^1)^{3}=2^{(1)(3)}=2^3$
 
 (3) $\left( \dfrac{a}{b} \right)^n=\frac{a^n}{b^n}$
 
@@ -90,13 +88,6 @@ Ejemplo:  $(3)^0=1$
 Ejemplo:  $(5)^0=1$
 
 (10) $0^0=\text{indeterminado}=IND$
-
-**Podcast**
-[Propiedades de Potenciación](https://soundcloud.com/john-estrada-920356121/propiedadesdepotenciacion)
-
-
-## Definición de radical
-
 :::
 
 **Podcast explicativo**
@@ -104,10 +95,17 @@ Ejemplo:  $(5)^0=1$
   <source src="podcasts/bloques/02-Potenciacion-y-radicales_prop-potenciacion.mp3" type="audio/mpeg">
 </audio>
 
+**Podcast**
+[Propiedades de Potenciación](https://soundcloud.com/john-estrada-920356121/propiedadesdepotenciacion)
+
+
+## Definición de radical
+
+::: {.definition #def-radical}
 Dados un número real $a$ y un número entero positivo $n$, se define el **radical** $\sqrt[n]{a}$ como el número real $b$ tal que $b^n=a$, es decir:
 $$\sqrt[n]{a}=b \quad \text{si y sólo si} \quad b^n=a$$
 Al número $n$ se le llama **índice** y al número $a$ se le llama **radicando**.
-```
+:::
 
 ## Propiedades de radicales
 
